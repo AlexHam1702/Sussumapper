@@ -1,0 +1,94 @@
+{
+  "nom": "Lille",
+  "lignes": {
+    "1": {
+      "nom": "Métro Ligne 1",
+      "couleur": "jaune",
+      "stations": [
+        "4 Cantons - Stade Pierre Mauroy", "Cité Scientifique - Professeur Gabillard",
+        "Triolo", "Villeneuve-d'Ascq - Hôtel de Ville",
+        "Pont de Bois", "Lezennes",
+        "Hellemmes", "Mairie de Lille - Lille Grand Palais",
+        "Fives", "Caulier",
+        "Gare Lille Flandres", "Rihour",
+        "République - Beaux-Arts", "Gambetta",
+        "Wazemmes", "Porte des Postes",
+        "CHR Oscar Lambret", "CHR B-Calmette"
+      ]
+    },
+    "2": {
+      "nom": "Métro Ligne 2",
+      "couleur": "rouge",
+      "stations": [
+        "Saint-Philibert", "Bourg",
+        "Maison des Enfants", "Porte de Douai",
+        "Porte d'Arras", "Porte de Valenciennes",
+        "Lille Grand Palais", "Mairie de Lille",
+        "Gare Lille Flandres", "Gare Lille Europe",
+        "Saint-Maurice Pellevoisin",
+        "Mons Sarts", "Fort de Mons",
+        "Les Prés - Edgard Pisani", "Jean Jaurès",
+        "Wasquehal - Hôtel de Ville",
+        "Pavé de Lille", "Croix - Mairie",
+        "Croix Centre", "Épeule - Montesquieu",
+        "Roubaix - Grand Place", "Roubaix - Eurotéléport",
+        "Roubaix - Charles de Gaulle",
+        "Alsace", "Gare Jean Lebas",
+        "Tourcoing - Sébastopol", "Tourcoing Centre",
+        "Colbert", "Pont de Neuville",
+        "CH Dron"
+      ]
+    },
+    "T": {
+      "nom": "Tramway T",
+      "couleur": "vert",
+      "stations": [
+        "Gare Lille Flandres", "Rihour",
+        "République - Beaux-Arts", "Buisson",
+        "Parc Jean-Baptiste Lebas", "Porte de Valenciennes",
+        "Boulevard de Metz", "Cimetière du Sud",
+        "Porte de Douai", "CHR Oscar Lambret",
+        "Porte des Postes", "Montebello",
+        "Calmette", "Centre Oscar Lambret",
+        "CHR B-Calmette", "Wattignies - Templemars",
+        "Ronchin - Fâches", "Hempempont",
+        "Tressin", "Villeneuve-d'Ascq Hôtel de Ville",
+        "Pont de Bois"
+      ]
+    },
+    "R": {
+      "nom": "Tramway R",
+      "couleur": "orange",
+      "stations": [
+        "Gare Lille Flandres", "Gare Lille Europe",
+        "Saint-Maurice Pellevoisin", "Mons Sarts",
+        "Fort de Mons", "Les Prés - Edgard Pisani",
+        "Jean Jaurès", "Wasquehal - Hôtel de Ville",
+        "Pavé de Lille", "Croix - Mairie",
+        "Croix Centre", "Épeule - Montesquieu",
+        "Roubaix - Grand Place", "Roubaix - Eurotéléport",
+        "Roubaix - Charles de Gaulle",
+        "Alsace", "Gare Jean Lebas",
+        "Tourcoing - Sébastopol", "Tourcoing Centre",
+        "Colbert", "Pont de Neuville",
+        "CH Dron"
+      ]
+    }
+  },
+  "connexions": [],
+  "correspondances": [
+    {"station": "Gare Lille Flandres", "lignes": ["1", "2", "T", "R"], "temps": 120},
+    {"station": "Gare Lille Europe", "lignes": ["2", "R"], "temps": 120},
+    {"station": "Rihour", "lignes": ["1", "T"], "temps": 120},
+    {"station": "République - Beaux-Arts", "lignes": ["1", "T"], "temps": 120},
+    {"station": "Porte de Douai", "lignes": ["2", "T"], "temps": 120},
+    {"station": "Porte de Valenciennes", "lignes": ["2", "T"], "temps": 120},
+    {"station": "Porte des Postes", "lignes": ["1", "T"], "temps": 120},
+    {"station": "CHR B-Calmette", "lignes": ["1", "T"], "temps": 120},
+    {"station": "CHR Oscar Lambret", "lignes": ["1", "T"], "temps": 120},
+    {"station": "Pont de Bois", "lignes": ["1", "T"], "temps": 120},
+    {"station": "Villeneuve-d'Ascq - Hôtel de Ville", "lignes": ["1", "T"], "temps": 120}
+  ],
+  "temps_moyen": 100,
+  "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne."
+}

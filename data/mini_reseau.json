@@ -1,0 +1,40 @@
+{
+  "nom": "Mini-réseau fictif",
+  "lignes": {
+    "A": {
+      "nom": "Ligne A",
+      "couleur": "rouge",
+      "stations": ["Alpha", "Bravo", "Charlie", "Delta", "Echo"]
+    },
+    "B": {
+      "nom": "Ligne B",
+      "couleur": "bleue",
+      "stations": ["Foxtrot", "Golf", "Charlie", "Hotel", "India", "Juliet"]
+    }
+  },
+  "connexions": [
+    {"de": "Alpha", "vers": "Bravo", "temps": 120, "ligne": "A"},
+    {"de": "Bravo", "vers": "Alpha", "temps": 120, "ligne": "A"},
+    {"de": "Bravo", "vers": "Charlie", "temps": 120, "ligne": "A"},
+    {"de": "Charlie", "vers": "Bravo", "temps": 120, "ligne": "A"},
+    {"de": "Charlie", "vers": "Delta", "temps": 120, "ligne": "A"},
+    {"de": "Delta", "vers": "Charlie", "temps": 120, "ligne": "A"},
+    {"de": "Delta", "vers": "Echo", "temps": 120, "ligne": "A"},
+    {"de": "Echo", "vers": "Delta", "temps": 120, "ligne": "A"},
+    {"de": "Foxtrot", "vers": "Golf", "temps": 120, "ligne": "B"},
+    {"de": "Golf", "vers": "Foxtrot", "temps": 120, "ligne": "B"},
+    {"de": "Golf", "vers": "Charlie", "temps": 120, "ligne": "B"},
+    {"de": "Charlie", "vers": "Golf", "temps": 120, "ligne": "B"},
+    {"de": "Charlie", "vers": "Hotel", "temps": 120, "ligne": "B"},
+    {"de": "Hotel", "vers": "Charlie", "temps": 120, "ligne": "B"},
+    {"de": "Hotel", "vers": "India", "temps": 120, "ligne": "B"},
+    {"de": "India", "vers": "Hotel", "temps": 120, "ligne": "B"},
+    {"de": "India", "vers": "Juliet", "temps": 120, "ligne": "B"},
+    {"de": "Juliet", "vers": "India", "temps": 120, "ligne": "B"}
+  ],
+  "correspondances": [
+    {"station": "Charlie", "lignes": ["A", "B"], "temps": 120}
+  ],
+  "temps_moyen": 120,
+  "note": "Réseau fictif de test. Temps moyen en secondes entre deux stations consécutives. Toutes les connexions ont le même temps de trajet."
+}
