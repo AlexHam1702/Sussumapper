@@ -1,4 +1,4 @@
-# **📦 \SuSuMapper**
+# **📦 \SuSsuMapper**
 
 **MVP Status:** v0.67
 
