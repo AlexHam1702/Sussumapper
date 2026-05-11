@@ -25,6 +25,74 @@ class RoutePlannerGUI(QMainWindow):
         self.setWindowTitle("Metropolitan Route Planner")
         self.setGeometry(100, 100, 900, 700)
         
+        # Set modern stylesheet with rounded corners
+        self.setStyleSheet("""
+            QMainWindow {
+                background-color: #f5f5f5;
+            }
+            QGroupBox {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                margin-top: 10px;
+                padding-top: 10px;
+                font-weight: bold;
+            }
+            QGroupBox::title {
+                subcontrol-origin: margin;
+                left: 10px;
+                padding: 0 3px 0 3px;
+            }
+            QLineEdit {
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                padding: 5px;
+                background-color: white;
+                font-size: 11px;
+            }
+            QLineEdit:focus {
+                border: 2px solid #0078d4;
+                background-color: #f9f9f9;
+            }
+            QPushButton {
+                border: none;
+                border-radius: 6px;
+                padding: 6px 12px;
+                background-color: #0078d4;
+                color: white;
+                font-weight: bold;
+                font-size: 11px;
+            }
+            QPushButton:hover {
+                background-color: #1084d8;
+            }
+            QPushButton:pressed {
+                background-color: #005a9e;
+            }
+            QTextEdit {
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                background-color: white;
+                font-size: 10px;
+            }
+            QLabel {
+                font-size: 11px;
+            }
+            QComboBox {
+                border: 1px solid #ccc;
+                border-radius: 6px;
+                padding: 5px;
+                background-color: white;
+                font-size: 11px;
+            }
+            QComboBox:focus {
+                border: 2px solid #0078d4;
+            }
+            QComboBox::drop-down {
+                border: none;
+                width: 20px;
+            }
+        """)
+        
         # Create central widget and main layout
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
@@ -45,19 +113,16 @@ class RoutePlannerGUI(QMainWindow):
         city_layout.addWidget(QLabel("Select a city:"), 0, 0)
         
         self.city_combo = QComboBox()
+        self.city_combo.currentTextChanged.connect(self.on_city_selected)
         city_layout.addWidget(self.city_combo, 0, 1)
-        
-        self.load_btn = QPushButton("Load City")
-        self.load_btn.clicked.connect(self.load_city)
-        city_layout.addWidget(self.load_btn, 0, 2)
         
         self.refresh_btn = QPushButton("Refresh List")
         self.refresh_btn.clicked.connect(self.refresh_cities)
-        city_layout.addWidget(self.refresh_btn, 0, 3)
+        city_layout.addWidget(self.refresh_btn, 0, 2)
         
         self.status_label = QLabel("No city loaded")
         self.status_label.setStyleSheet("color: gray; font-size: 10px;")
-        city_layout.addWidget(self.status_label, 1, 0, 1, 4)
+        city_layout.addWidget(self.status_label, 1, 0, 1, 3)
         
         city_group.setLayout(city_layout)
         main_layout.addWidget(city_group)
@@ -138,23 +203,29 @@ class RoutePlannerGUI(QMainWindow):
                               f"No JSON files found in the '{self.data_dir}' folder.\n"
                               "Please place your JSON files inside it.")
     
-    def load_city(self):
+    def on_city_selected(self, city_name):
+        """Auto-load city when selected from dropdown."""
+        if city_name:  # Only load if a valid city is selected
+            self.load_city(city_name)
+    
+    def load_city(self, city_name=None):
         """Load the selected city."""
-        selected_city = self.city_combo.currentText()
+        if city_name is None:
+            city_name = self.city_combo.currentText()
         
-        if not selected_city:
+        if not city_name:
             QMessageBox.warning(self, "Selection Required", "Please select a city.")
             return
         
-        filepath = os.path.join(self.data_dir, f"{selected_city}.json")
+        filepath = os.path.join(self.data_dir, f"{city_name}.json")
         
         try:
             self.network.load_from_json(filepath)
-            self.current_city = selected_city
+            self.current_city = city_name
             
             station_count = len(self.network.stations)
             self.status_label.setText(
-                f"✅ {selected_city.capitalize()} loaded with {station_count} stations"
+                f"✅ {city_name.capitalize()} loaded with {station_count} stations"
             )
             self.status_label.setStyleSheet("color: green; font-size: 10px;")
             
@@ -164,9 +235,7 @@ class RoutePlannerGUI(QMainWindow):
             self.station_completer.setModel(model)
             self.station_completer_end.setModel(QStringListModel(stations_list))
             
-            self.update_info(f"Loaded {selected_city} with {station_count} stations")
-            QMessageBox.information(self, "Success", 
-                                  f"Successfully loaded '{selected_city}' with {station_count} stations.")
+            self.update_info(f"Loaded {city_name} with {station_count} stations")
         except FileNotFoundError:
             QMessageBox.critical(self, "Error", f"Could not find file: {filepath}")
         except Exception as e:
