@@ -1,0 +1,259 @@
+import sys
+import os
+from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
+                             QLabel, QLineEdit, QPushButton, QComboBox, QTextEdit, 
+                             QGroupBox, QMessageBox, QGridLayout, QCompleter)
+from PyQt5.QtGui import QFont, QColor
+from PyQt5.QtCore import Qt, QStringListModel
+from main import TransportNetwork, list_available_cities
+
+
+class RoutePlannerGUI(QMainWindow):
+    """GUI application for the Metropolitan Route Planner using PyQt5."""
+    
+    def __init__(self):
+        super().__init__()
+        
+        self.network = TransportNetwork()
+        self.data_dir = "data"
+        self.current_city = None
+        
+        self.init_ui()
+    
+    def init_ui(self):
+        """Initialize the user interface."""
+        self.setWindowTitle("Metropolitan Route Planner")
+        self.setGeometry(100, 100, 900, 700)
+        
+        # Create central widget and main layout
+        central_widget = QWidget()
+        self.setCentralWidget(central_widget)
+        main_layout = QVBoxLayout(central_widget)
+        main_layout.setSpacing(10)
+        main_layout.setContentsMargins(10, 10, 10, 10)
+        
+        # ===== HEADER =====
+        title_font = QFont('Helvetica', 16, QFont.Bold)
+        title_label = QLabel("🚇 Metropolitan Route Planner")
+        title_label.setFont(title_font)
+        main_layout.addWidget(title_label)
+        
+        # ===== CITY SELECTION GROUP =====
+        city_group = QGroupBox("1. Load City Data")
+        city_layout = QGridLayout()
+        
+        city_layout.addWidget(QLabel("Select a city:"), 0, 0)
+        
+        self.city_combo = QComboBox()
+        city_layout.addWidget(self.city_combo, 0, 1)
+        
+        self.load_btn = QPushButton("Load City")
+        self.load_btn.clicked.connect(self.load_city)
+        city_layout.addWidget(self.load_btn, 0, 2)
+        
+        self.refresh_btn = QPushButton("Refresh List")
+        self.refresh_btn.clicked.connect(self.refresh_cities)
+        city_layout.addWidget(self.refresh_btn, 0, 3)
+        
+        self.status_label = QLabel("No city loaded")
+        self.status_label.setStyleSheet("color: gray; font-size: 10px;")
+        city_layout.addWidget(self.status_label, 1, 0, 1, 4)
+        
+        city_group.setLayout(city_layout)
+        main_layout.addWidget(city_group)
+        
+        # ===== ROUTE SEARCH GROUP =====
+        search_group = QGroupBox("2. Find Shortest Route")
+        search_layout = QGridLayout()
+        
+        # Departure station
+        search_layout.addWidget(QLabel("Departure station:"), 0, 0)
+        self.start_entry = QLineEdit()
+        self.station_completer = QCompleter([])
+        self.station_completer.setCaseSensitivity(Qt.CaseInsensitive)
+        self.start_entry.setCompleter(self.station_completer)
+        search_layout.addWidget(self.start_entry, 0, 1)
+        
+        # Arrival station
+        search_layout.addWidget(QLabel("Arrival station:"), 1, 0)
+        self.end_entry = QLineEdit()
+        self.station_completer_end = QCompleter([])
+        self.station_completer_end.setCaseSensitivity(Qt.CaseInsensitive)
+        self.end_entry.setCompleter(self.station_completer_end)
+        search_layout.addWidget(self.end_entry, 1, 1)
+        
+        # Buttons on the right
+        buttons_layout = QVBoxLayout()
+        
+        self.search_btn = QPushButton("Find Route")
+        self.search_btn.clicked.connect(self.find_route)
+        buttons_layout.addWidget(self.search_btn)
+        
+        self.clear_btn = QPushButton("Clear")
+        self.clear_btn.clicked.connect(self.clear_search)
+        buttons_layout.addWidget(self.clear_btn)
+        
+        buttons_layout.addStretch()
+        search_layout.addLayout(buttons_layout, 0, 2, 2, 1)
+        
+        # Result display area
+        search_layout.addWidget(QLabel("Route Details:"), 2, 0, 1, 3)
+        
+        self.result_text = QTextEdit()
+        self.result_text.setReadOnly(True)
+        self.result_text.setMinimumHeight(250)
+        search_layout.addWidget(self.result_text, 3, 0, 1, 3)
+        
+        search_group.setLayout(search_layout)
+        main_layout.addWidget(search_group, 1)  # Add stretch factor
+        
+        # ===== BOTTOM FRAME =====
+        bottom_layout = QHBoxLayout()
+        
+        self.info_label = QLabel("Ready to plan your route!")
+        self.info_label.setStyleSheet("color: blue; font-size: 9px;")
+        bottom_layout.addWidget(self.info_label)
+        
+        bottom_layout.addStretch()
+        
+        exit_btn = QPushButton("Exit")
+        exit_btn.clicked.connect(self.close)
+        bottom_layout.addWidget(exit_btn)
+        
+        main_layout.addLayout(bottom_layout)
+        
+        # Initialize city list
+        self.refresh_cities()
+    
+    def refresh_cities(self):
+        """Refresh the list of available cities."""
+        available_files = list_available_cities(self.data_dir)
+        cities = [f.replace('.json', '') for f in available_files]
+        
+        self.city_combo.clear()
+        self.city_combo.addItems(cities)
+        
+        if not cities:
+            QMessageBox.warning(self, "No Cities", 
+                              f"No JSON files found in the '{self.data_dir}' folder.\n"
+                              "Please place your JSON files inside it.")
+    
+    def load_city(self):
+        """Load the selected city."""
+        selected_city = self.city_combo.currentText()
+        
+        if not selected_city:
+            QMessageBox.warning(self, "Selection Required", "Please select a city.")
+            return
+        
+        filepath = os.path.join(self.data_dir, f"{selected_city}.json")
+        
+        try:
+            self.network.load_from_json(filepath)
+            self.current_city = selected_city
+            
+            station_count = len(self.network.stations)
+            self.status_label.setText(
+                f"✅ {selected_city.capitalize()} loaded with {station_count} stations"
+            )
+            self.status_label.setStyleSheet("color: green; font-size: 10px;")
+            
+            # Update autocomplete with station names
+            stations_list = sorted(list(self.network.stations))
+            model = QStringListModel(stations_list)
+            self.station_completer.setModel(model)
+            self.station_completer_end.setModel(QStringListModel(stations_list))
+            
+            self.update_info(f"Loaded {selected_city} with {station_count} stations")
+            QMessageBox.information(self, "Success", 
+                                  f"Successfully loaded '{selected_city}' with {station_count} stations.")
+        except FileNotFoundError:
+            QMessageBox.critical(self, "Error", f"Could not find file: {filepath}")
+        except Exception as e:
+            QMessageBox.critical(self, "Error", f"Failed to load city:\n{str(e)}")
+    
+    def find_route(self):
+        """Find the shortest route between two stations."""
+        if not self.network.stations:
+            QMessageBox.warning(self, "No City Loaded", 
+                              "Please load a city first (Step 1)!")
+            return
+        
+        start_station = self.start_entry.text().strip()
+        end_station = self.end_entry.text().strip()
+        
+        if not start_station or not end_station:
+            QMessageBox.warning(self, "Missing Input", 
+                              "Please enter both departure and arrival stations.")
+            return
+        
+        try:
+            route = self.network.dijkstra(start_station, end_station)
+            self.display_route(route)
+        except Exception as e:
+            QMessageBox.critical(self, "Error", f"Error finding route:\n{str(e)}")
+    
+    def display_route(self, route):
+        """Display the route in the result text area."""
+        if not route or len(route) < 2:
+            result_text = "❌ No route found or invalid stations.\nPlease check your spelling."
+            self.update_info("No route found")
+        else:
+            # Format route manually for GUI display
+            start_station = route[0][0]
+            start_line = route[1][1]
+            
+            result_text = "=" * 50 + "\n"
+            result_text += "🛤️  YOUR ITINERARY\n"
+            result_text += "=" * 50 + "\n"
+            result_text += f"📍 Board at {start_station}, line {start_line}\n\n"
+            
+            current_line = start_line
+            
+            # Loop through intermediate stations
+            for i in range(1, len(route) - 1):
+                current_station = route[i][0]
+                next_line = route[i + 1][1]
+                
+                if next_line != current_line:
+                    result_text += f"   ↓ Arrive at {current_station}\n"
+                    result_text += f"🔄 Transfer at {current_station}, take line {next_line}\n\n"
+                    current_line = next_line
+                else:
+                    result_text += f"   ↓ Continue through {current_station}\n"
+            
+            final_station, final_line, total_time = route[-1]
+            result_text += f"\n🏁 Arrived at {final_station}, line {current_line}\n"
+            result_text += "-" * 50 + "\n"
+            
+            mins, secs = divmod(total_time, 60)
+            result_text += f"⏱️  Estimated total time: {mins} minutes {secs} seconds\n"
+            result_text += "=" * 50
+            
+            self.update_info(f"Route found: {mins}m {secs}s")
+        
+        self.result_text.setText(result_text)
+    
+    def clear_search(self):
+        """Clear search fields and results."""
+        self.start_entry.clear()
+        self.end_entry.clear()
+        self.result_text.clear()
+        
+        self.update_info("Search cleared")
+    
+    def update_info(self, message):
+        """Update the info label at the bottom."""
+        self.info_label.setText(message)
+        self.info_label.setStyleSheet("color: blue; font-size: 9px;")
+
+
+def main():
+    app = QApplication(sys.argv)
+    window = RoutePlannerGUI()
+    window.show()
+    sys.exit(app.exec_())
+
+
+if __name__ == "__main__":
+    main()
