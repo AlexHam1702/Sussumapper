@@ -1,4 +1,4 @@
-# **📦 \TicTacTerminal**
+# **📦 \SuSuMapper**
 
 **MVP Status:** v0.67
 
