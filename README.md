@@ -2,7 +2,7 @@
 
 **MVP Status:** v0.67
 
-**Group Members:** Noa Thams, Baptiste Lhors, Eleanore Cortes-Sommaro, Alexandre Hamard
+**Group Members:** Noa Thams, Baptiste Lhors, Eleanor Cortes-Sommaro, Alexandre Hamard
 
 
 ## **🎯 Project Overview**
