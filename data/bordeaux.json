@@ -5,38 +5,72 @@
       "nom": "Tramway A",
       "couleur": "bleu",
       "stations": [
-        "Le Haillan Rostand", "Les Pins", "Hôpital Haut-Lévêque",
-        "Alfred de Vigny", "François Mitterrand", "Mérignac Centre",
-        "Pin Galant", "Quatre Chemins", "Lycée de Mérignac",
-        "Fontaine d'Arlac", "Peychotte", "Saint-Augustin",
-        "Stade Chaban-Delmas", "Hôtel de Ville - Mériadeck",
-        "Palais de Justice", "Musée d'Aquitaine",
-        "Victoire", "Sainte-Croix", "Porte de Bourgogne",
-        "Jardin Botanique", "Quinconces",
-        "CAPC Musée d'Art Contemporain", "Chartrons",
-        "Cours du Médoc", "Émile Counord",
-        "Brandenburg", "Ravezies", "New York",
-        "Les Aubiers", "Lac", "Parc des Expositions",
-        "Bruges Centre", "Mairie de Bruges",
-        "Buttinière", "Ginko", "La Gardette",
-        "Blanquefort Centre", "Blanquefort"
+        "Le Haillan Rostand",
+        "Les Pins",
+        "Hôpital Haut-Lévêque",
+        "Alfred de Vigny",
+        "François Mitterrand",
+        "Mérignac Centre",
+        "Pin Galant",
+        "Quatre Chemins",
+        "Lycée de Mérignac",
+        "Fontaine d'Arlac",
+        "Peychotte",
+        "Saint-Augustin",
+        "Stade Chaban-Delmas",
+        "Hôtel de Ville - Mériadeck",
+        "Palais de Justice",
+        "Musée d'Aquitaine",
+        "Victoire",
+        "Sainte-Croix",
+        "Porte de Bourgogne",
+        "Jardin Botanique",
+        "Quinconces",
+        "CAPC Musée d'Art Contemporain",
+        "Chartrons",
+        "Cours du Médoc",
+        "Émile Counord",
+        "Brandenburg",
+        "Ravezies",
+        "New York",
+        "Les Aubiers",
+        "Lac",
+        "Parc des Expositions",
+        "Bruges Centre",
+        "Mairie de Bruges",
+        "Buttinière",
+        "Ginko",
+        "La Gardette",
+        "Blanquefort Centre",
+        "Blanquefort"
       ]
     },
     "B": {
       "nom": "Tramway B",
       "couleur": "rouge",
       "stations": [
-        "Berges de la Garonne", "Jean Jaurès",
-        "Quinconces", "Grand Théâtre",
-        "Gambetta", "Hôtel de Ville - Mériadeck",
-        "Saint-Bruno - Hôtel de Région", "Bergonié",
-        "Victoire", "Musée d'Aquitaine",
-        "Saint-Nicolas", "Tauzia",
-        "Gare Saint-Jean", "Belcier",
-        "Carle Vernet", "Terres Neuves",
-        "Milliaire", "Bougnard",
-        "Pessac Centre", "France Alouette",
-        "Alouette", "Pessac Bersol"
+        "Berges de la Garonne",
+        "Jean Jaurès",
+        "Quinconces",
+        "Grand Théâtre",
+        "Gambetta",
+        "Hôtel de Ville - Mériadeck",
+        "Saint-Bruno - Hôtel de Région",
+        "Bergonié",
+        "Victoire",
+        "Musée d'Aquitaine",
+        "Saint-Nicolas",
+        "Tauzia",
+        "Gare Saint-Jean",
+        "Belcier",
+        "Carle Vernet",
+        "Terres Neuves",
+        "Milliaire",
+        "Bougnard",
+        "Pessac Centre",
+        "France Alouette",
+        "Alouette",
+        "Pessac Bersol"
       ]
     },
     "C": {
@@ -44,17 +78,28 @@
       "couleur": "rose",
       "stations": [
         "Parc des Expositions",
-        "Berges du Lac", "Judaïque",
-        "Les Hangars", "Quai des Chartrons",
-        "Quinconces", "Place de la Bourse",
-        "Porte de Bourgogne", "Gare Saint-Jean",
-        "Sainte-Croix", "Victoire",
-        "Bergonié", "Barrière de Bègles",
-        "Stade Musard", "Terres Neuves - Montaigne-Montesquieu",
-        "Hôtel de Ville de Bègles", "Bègles Centre",
-        "Calabet - Tortuga", "La Houillère",
-        "Villenave Pyrénées", "Pont de la Maye",
-        "Villenave Centre", "Arts et Métiers",
+        "Berges du Lac",
+        "Judaïque",
+        "Les Hangars",
+        "Quai des Chartrons",
+        "Quinconces",
+        "Place de la Bourse",
+        "Porte de Bourgogne",
+        "Gare Saint-Jean",
+        "Sainte-Croix",
+        "Victoire",
+        "Bergonié",
+        "Barrière de Bègles",
+        "Stade Musard",
+        "Terres Neuves - Montaigne-Montesquieu",
+        "Hôtel de Ville de Bègles",
+        "Bègles Centre",
+        "Calabet - Tortuga",
+        "La Houillère",
+        "Villenave Pyrénées",
+        "Pont de la Maye",
+        "Villenave Centre",
+        "Arts et Métiers",
         "Gare de Gazinet - Cestas"
       ]
     },
@@ -62,42 +107,66 @@
       "nom": "Tramway D",
       "couleur": "violet",
       "stations": [
-        "Quinconces", "Charles Martin",
-        "Place Paul Doumer", "Barrière du Médoc",
-        "Grand Parc", "Émile Counord",
-        "Carle Vernet", "Les Rives d'Arcins",
-        "Buttinière", "Eysines Centre",
-        "Cantinolle", "Le Taillan-Médoc"
+        "Quinconces",
+        "Charles Martin",
+        "Place Paul Doumer",
+        "Barrière du Médoc",
+        "Grand Parc",
+        "Émile Counord",
+        "Carle Vernet",
+        "Les Rives d'Arcins",
+        "Buttinière",
+        "Eysines Centre",
+        "Cantinolle",
+        "Le Taillan-Médoc"
       ]
     },
     "E": {
       "nom": "Tramway E",
       "couleur": "orange",
       "stations": [
-        "Aéroport", "Cassiopée", "Cap Métiers",
-        "Lycée Vaclav Havel", "Quatre Chemins",
-        "Pin Galant", "Mérignac Centre",
-        "François Mitterrand", "Hôpital Pellegrin",
-        "Hôpital Pellegrin - Tondu", "Palais de Justice - Mériadeck",
-        "Hôtel de Ville", "Gambetta",
-        "Grand Théâtre", "Quinconces",
+        "Aéroport",
+        "Cassiopée",
+        "Cap Métiers",
+        "Lycée Vaclav Havel",
+        "Quatre Chemins",
+        "Pin Galant",
+        "Mérignac Centre",
+        "François Mitterrand",
+        "Hôpital Pellegrin",
+        "Hôpital Pellegrin - Tondu",
+        "Palais de Justice - Mériadeck",
+        "Hôtel de Ville",
+        "Gambetta",
+        "Grand Théâtre",
+        "Quinconces",
         "CAPC Musée d'Art Contemporain",
-        "Les Hangars", "Les Hangars (Médoc)",
-        "Cours du Médoc", "Émile Counord",
-        "Cenon Gare", "Cenon Pont Rouge",
-        "Mairie de Cenon", "Lauriers",
-        "Gravières", "La Morlette",
-        "Buttinière", "Floirac Dravemont"
+        "Les Hangars",
+        "Les Hangars (Médoc)",
+        "Cours du Médoc",
+        "Émile Counord",
+        "Cenon Gare",
+        "Cenon Pont Rouge",
+        "Mairie de Cenon",
+        "Lauriers",
+        "Gravières",
+        "La Morlette",
+        "Buttinière",
+        "Floirac Dravemont"
       ]
     },
     "F": {
       "nom": "Tramway F",
       "couleur": "bleu foncé",
       "stations": [
-        "Quinconces", "Place de la Bourse",
-        "Porte de Bourgogne", "Stalingrad",
-        "Cenon Gare", "Cenon Pont Rouge",
-        "Jean Zay", "La Morlette",
+        "Quinconces",
+        "Place de la Bourse",
+        "Porte de Bourgogne",
+        "Stalingrad",
+        "Cenon Gare",
+        "Cenon Pont Rouge",
+        "Jean Zay",
+        "La Morlette",
         "Floirac Dravemont"
       ]
     },
@@ -106,16 +175,25 @@
       "couleur": "violet foncé",
       "stations": [
         "Saint-Aubin-de-Médoc - Villepreux",
-        "Hippodrome", "Simone Veil",
-        "Chambre de Commerce", "Les Écus",
-        "Mairie de Bruges", "Place Ravezies - La Boucaïre",
-        "Cenon Courbet", "Camille Godard - Jardin Public",
+        "Hippodrome",
+        "Simone Veil",
+        "Chambre de Commerce",
+        "Les Écus",
+        "Mairie de Bruges",
+        "Place Ravezies - La Boucaïre",
+        "Cenon Courbet",
+        "Camille Godard - Jardin Public",
         "Paul Doumer - Mûriers",
-        "Fondaudège - Mûriers", "Gambetta",
-        "Hôtel de Ville", "Catherine Cérilla",
-        "Musée d'Aquitaine", "Saint-Nicolas",
-        "La Belle Rose", "Stade Musard",
-        "Calvet Centoujours", "Pont de Bègles",
+        "Fondaudège - Mûriers",
+        "Gambetta",
+        "Hôtel de Ville",
+        "Catherine Cérilla",
+        "Musée d'Aquitaine",
+        "Saint-Nicolas",
+        "La Belle Rose",
+        "Stade Musard",
+        "Calvet Centoujours",
+        "Pont de Bègles",
         "Gare de Bègles"
       ]
     },
@@ -123,52 +201,781 @@
       "nom": "Bus Express H",
       "couleur": "rose foncé",
       "stations": [
-        "Carle Vernet", "Belcier",
-        "Gare Saint-Jean", "Sainte-Croix",
-        "Porte de Bourgogne", "Saint-Michel",
-        "Sainte-Catherine", "Place du Palais",
-        "Porte de Bourgogne", "Stalingrad",
-        "Cenon Gare", "Buttinière",
+        "Carle Vernet",
+        "Belcier",
+        "Gare Saint-Jean",
+        "Sainte-Croix",
+        "Porte de Bourgogne",
+        "Saint-Michel",
+        "Sainte-Catherine",
+        "Place du Palais",
+        "Porte de Bourgogne",
+        "Stalingrad",
+        "Cenon Gare",
+        "Buttinière",
         "Navette Arena - Cébétang Concerts"
       ]
     }
   },
   "connexions": [],
   "correspondances": [
-    {"station": "Quinconces", "lignes": ["A", "B", "C", "D", "E", "F"], "temps": 120},
-    {"station": "Victoire", "lignes": ["A", "B", "C"], "temps": 120},
-    {"station": "Hôtel de Ville", "lignes": ["A", "B", "E", "G"], "temps": 120},
-    {"station": "Musée d'Aquitaine", "lignes": ["A", "B", "G"], "temps": 120},
-    {"station": "Porte de Bourgogne", "lignes": ["A", "C", "F", "H"], "temps": 120},
-    {"station": "Gare Saint-Jean", "lignes": ["B", "C", "H"], "temps": 120},
-    {"station": "Bergonié", "lignes": ["B", "C"], "temps": 120},
-    {"station": "Sainte-Croix", "lignes": ["A", "C", "H"], "temps": 120},
-    {"station": "Parc des Expositions", "lignes": ["A", "C"], "temps": 120},
-    {"station": "Émile Counord", "lignes": ["A", "D", "E"], "temps": 120},
-    {"station": "Terres Neuves", "lignes": ["B", "C"], "temps": 120},
-    {"station": "Carle Vernet", "lignes": ["B", "D", "H"], "temps": 120},
-    {"station": "Buttinière", "lignes": ["A", "D", "E", "H"], "temps": 120},
-    {"station": "Gambetta", "lignes": ["B", "E", "G"], "temps": 120},
-    {"station": "Grand Théâtre", "lignes": ["B", "E"], "temps": 120},
-    {"station": "Quatre Chemins", "lignes": ["A", "E"], "temps": 120},
-    {"station": "Pin Galant", "lignes": ["A", "E"], "temps": 120},
-    {"station": "Mérignac Centre", "lignes": ["A", "E"], "temps": 120},
-    {"station": "François Mitterrand", "lignes": ["A", "E"], "temps": 120},
-    {"station": "Cenon Gare", "lignes": ["E", "F", "H"], "temps": 120},
-    {"station": "Cenon Pont Rouge", "lignes": ["E", "F"], "temps": 120},
-    {"station": "La Morlette", "lignes": ["E", "F"], "temps": 120},
-    {"station": "Floirac Dravemont", "lignes": ["E", "F"], "temps": 120},
-    {"station": "Mairie de Bruges", "lignes": ["A", "G"], "temps": 120},
-    {"station": "Saint-Nicolas", "lignes": ["B", "G"], "temps": 120},
-    {"station": "Stade Musard", "lignes": ["C", "G"], "temps": 120},
-    {"station": "Stalingrad", "lignes": ["F", "H"], "temps": 120},
-    {"station": "Cours du Médoc", "lignes": ["A", "E"], "temps": 120},
-    {"station": "Belcier", "lignes": ["B", "H"], "temps": 120},
-    {"station": "Place de la Bourse", "lignes": ["C", "F"], "temps": 120},
-    {"station": "Palais de Justice - Mériadeck", "lignes": ["A", "E"], "temps": 120},
-    {"station": "Les Hangars", "lignes": ["C", "E"], "temps": 120},
-    {"station": "CAPC Musée d'Art Contemporain", "lignes": ["A", "E"], "temps": 120}
+    {
+      "station": "Quinconces",
+      "lignes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Victoire",
+      "lignes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Hôtel de Ville",
+      "lignes": [
+        "A",
+        "B",
+        "E",
+        "G"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Musée d'Aquitaine",
+      "lignes": [
+        "A",
+        "B",
+        "G"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Porte de Bourgogne",
+      "lignes": [
+        "A",
+        "C",
+        "F",
+        "H"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Gare Saint-Jean",
+      "lignes": [
+        "B",
+        "C",
+        "H"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Bergonié",
+      "lignes": [
+        "B",
+        "C"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Sainte-Croix",
+      "lignes": [
+        "A",
+        "C",
+        "H"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Parc des Expositions",
+      "lignes": [
+        "A",
+        "C"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Émile Counord",
+      "lignes": [
+        "A",
+        "D",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Terres Neuves",
+      "lignes": [
+        "B",
+        "C"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Carle Vernet",
+      "lignes": [
+        "B",
+        "D",
+        "H"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Buttinière",
+      "lignes": [
+        "A",
+        "D",
+        "E",
+        "H"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Gambetta",
+      "lignes": [
+        "B",
+        "E",
+        "G"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Grand Théâtre",
+      "lignes": [
+        "B",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Quatre Chemins",
+      "lignes": [
+        "A",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Pin Galant",
+      "lignes": [
+        "A",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Mérignac Centre",
+      "lignes": [
+        "A",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "François Mitterrand",
+      "lignes": [
+        "A",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Cenon Gare",
+      "lignes": [
+        "E",
+        "F",
+        "H"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Cenon Pont Rouge",
+      "lignes": [
+        "E",
+        "F"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "La Morlette",
+      "lignes": [
+        "E",
+        "F"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Floirac Dravemont",
+      "lignes": [
+        "E",
+        "F"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Mairie de Bruges",
+      "lignes": [
+        "A",
+        "G"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Saint-Nicolas",
+      "lignes": [
+        "B",
+        "G"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Stade Musard",
+      "lignes": [
+        "C",
+        "G"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Stalingrad",
+      "lignes": [
+        "F",
+        "H"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Cours du Médoc",
+      "lignes": [
+        "A",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Belcier",
+      "lignes": [
+        "B",
+        "H"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Place de la Bourse",
+      "lignes": [
+        "C",
+        "F"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Palais de Justice - Mériadeck",
+      "lignes": [
+        "A",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Les Hangars",
+      "lignes": [
+        "C",
+        "E"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "CAPC Musée d'Art Contemporain",
+      "lignes": [
+        "A",
+        "E"
+      ],
+      "temps": 120
+    }
   ],
   "temps_moyen": 120,
-  "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne."
+  "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne.",
+  "stations_info": {
+    "Le Haillan Rostand": {
+      "lat": 44.846766,
+      "lon": -0.593285
+    },
+    "Les Pins": {
+      "lat": 44.834528,
+      "lon": -0.603518
+    },
+    "Hôpital Haut-Lévêque": {
+      "lat": 44.835388,
+      "lon": -0.577679
+    },
+    "Alfred de Vigny": {
+      "lat": 44.845881,
+      "lon": -0.624513
+    },
+    "François Mitterrand": {
+      "lat": 43.184803,
+      "lon": -0.621763
+    },
+    "Mérignac Centre": {
+      "lat": 44.8387,
+      "lon": -0.623383
+    },
+    "Pin Galant": {
+      "lat": 44.834528,
+      "lon": -0.603518
+    },
+    "Quatre Chemins": {
+      "lat": null,
+      "lon": null
+    },
+    "Lycée de Mérignac": {
+      "lat": 44.84057,
+      "lon": -0.571042
+    },
+    "Fontaine d'Arlac": {
+      "lat": 44.825226,
+      "lon": -0.614414
+    },
+    "Peychotte": {
+      "lat": null,
+      "lon": null
+    },
+    "Saint-Augustin": {
+      "lat": 44.835565,
+      "lon": -0.602186
+    },
+    "Stade Chaban-Delmas": {
+      "lat": 44.858097,
+      "lon": -0.551683
+    },
+    "Hôtel de Ville - Mériadeck": {
+      "lat": 44.838345,
+      "lon": -0.57889
+    },
+    "Palais de Justice": {
+      "lat": 48.96058,
+      "lon": 2.883376
+    },
+    "Musée d'Aquitaine": {
+      "lat": null,
+      "lon": null
+    },
+    "Victoire": {
+      "lat": 44.83094,
+      "lon": -0.57279
+    },
+    "Sainte-Croix": {
+      "lat": 48.49829,
+      "lon": -3.962247
+    },
+    "Porte de Bourgogne": {
+      "lat": 44.063601,
+      "lon": 0.427076
+    },
+    "Jardin Botanique": {
+      "lat": 44.84948,
+      "lon": -0.559057
+    },
+    "Quinconces": {
+      "lat": 44.845315,
+      "lon": -0.575654
+    },
+    "CAPC Musée d'Art Contemporain": {
+      "lat": null,
+      "lon": null
+    },
+    "Chartrons": {
+      "lat": 44.855164,
+      "lon": -0.563096
+    },
+    "Cours du Médoc": {
+      "lat": 44.859552,
+      "lon": -0.568371
+    },
+    "Émile Counord": {
+      "lat": 44.858917,
+      "lon": -0.574945
+    },
+    "Brandenburg": {
+      "lat": 44.87588,
+      "lon": -0.548812
+    },
+    "Ravezies": {
+      "lat": 44.865643,
+      "lon": -0.575115
+    },
+    "New York": {
+      "lat": 44.869736,
+      "lon": -0.54963
+    },
+    "Les Aubiers": {
+      "lat": 44.872971,
+      "lon": -0.572509
+    },
+    "Lac": {
+      "lat": 44.879188,
+      "lon": -0.56901
+    },
+    "Parc des Expositions": {
+      "lat": 48.973534,
+      "lon": 2.514074
+    },
+    "Bruges Centre": {
+      "lat": 44.853683,
+      "lon": -0.58181
+    },
+    "Mairie de Bruges": {
+      "lat": 44.853683,
+      "lon": -0.58181
+    },
+    "Buttinière": {
+      "lat": null,
+      "lon": null
+    },
+    "Ginko": {
+      "lat": 48.49829,
+      "lon": -3.962247
+    },
+    "La Gardette": {
+      "lat": null,
+      "lon": null
+    },
+    "Blanquefort Centre": {
+      "lat": 44.852449,
+      "lon": -0.582274
+    },
+    "Blanquefort": {
+      "lat": 44.852449,
+      "lon": -0.582274
+    },
+    "Berges de la Garonne": {
+      "lat": null,
+      "lon": null
+    },
+    "Jean Jaurès": {
+      "lat": 44.843079,
+      "lon": -0.570995
+    },
+    "Grand Théâtre": {
+      "lat": null,
+      "lon": null
+    },
+    "Gambetta": {
+      "lat": 44.850106,
+      "lon": -0.617619
+    },
+    "Saint-Bruno - Hôtel de Région": {
+      "lat": 44.837578,
+      "lon": -0.598036
+    },
+    "Bergonié": {
+      "lat": 44.814918,
+      "lon": -0.568943
+    },
+    "Saint-Nicolas": {
+      "lat": 44.827167,
+      "lon": -0.573905
+    },
+    "Tauzia": {
+      "lat": 44.829079,
+      "lon": -0.558662
+    },
+    "Gare Saint-Jean": {
+      "lat": -21.321648,
+      "lon": 55.486135
+    },
+    "Belcier": {
+      "lat": 44.825249,
+      "lon": -0.549838
+    },
+    "Carle Vernet": {
+      "lat": 44.818849,
+      "lon": -0.551591
+    },
+    "Terres Neuves": {
+      "lat": 44.836438,
+      "lon": -0.549158
+    },
+    "Milliaire": {
+      "lat": null,
+      "lon": null
+    },
+    "Bougnard": {
+      "lat": null,
+      "lon": null
+    },
+    "Pessac Centre": {
+      "lat": 44.828623,
+      "lon": -0.583437
+    },
+    "France Alouette": {
+      "lat": 44.859478,
+      "lon": -0.502298
+    },
+    "Alouette": {
+      "lat": 44.859478,
+      "lon": -0.502298
+    },
+    "Pessac Bersol": {
+      "lat": 44.828623,
+      "lon": -0.583437
+    },
+    "Berges du Lac": {
+      "lat": 43.886772,
+      "lon": -1.318198
+    },
+    "Judaïque": {
+      "lat": 44.840941,
+      "lon": -0.590012
+    },
+    "Les Hangars": {
+      "lat": null,
+      "lon": null
+    },
+    "Quai des Chartrons": {
+      "lat": 44.85293,
+      "lon": -0.567209
+    },
+    "Place de la Bourse": {
+      "lat": 44.841464,
+      "lon": -0.570493
+    },
+    "Barrière de Bègles": {
+      "lat": 44.82149,
+      "lon": -0.566258
+    },
+    "Stade Musard": {
+      "lat": null,
+      "lon": null
+    },
+    "Terres Neuves - Montaigne-Montesquieu": {
+      "lat": 44.846795,
+      "lon": -0.618212
+    },
+    "Hôtel de Ville de Bègles": {
+      "lat": 44.838345,
+      "lon": -0.57889
+    },
+    "Bègles Centre": {
+      "lat": 44.82149,
+      "lon": -0.566258
+    },
+    "Calabet - Tortuga": {
+      "lat": null,
+      "lon": null
+    },
+    "La Houillère": {
+      "lat": null,
+      "lon": null
+    },
+    "Villenave Pyrénées": {
+      "lat": null,
+      "lon": null
+    },
+    "Pont de la Maye": {
+      "lat": null,
+      "lon": null
+    },
+    "Villenave Centre": {
+      "lat": null,
+      "lon": null
+    },
+    "Arts et Métiers": {
+      "lat": 47.308219,
+      "lon": 5.021266
+    },
+    "Gare de Gazinet - Cestas": {
+      "lat": 44.835275,
+      "lon": -0.600155
+    },
+    "Charles Martin": {
+      "lat": 44.873638,
+      "lon": -0.549697
+    },
+    "Place Paul Doumer": {
+      "lat": 44.852015,
+      "lon": -0.57425
+    },
+    "Barrière du Médoc": {
+      "lat": 44.838468,
+      "lon": -0.587234
+    },
+    "Grand Parc": {
+      "lat": 44.851775,
+      "lon": -0.605953
+    },
+    "Les Rives d'Arcins": {
+      "lat": 44.79449,
+      "lon": -0.535481
+    },
+    "Eysines Centre": {
+      "lat": 44.859843,
+      "lon": -0.610102
+    },
+    "Cantinolle": {
+      "lat": null,
+      "lon": null
+    },
+    "Le Taillan-Médoc": {
+      "lat": 44.902621,
+      "lon": -0.667916
+    },
+    "Aéroport": {
+      "lat": null,
+      "lon": null
+    },
+    "Cassiopée": {
+      "lat": 44.819684,
+      "lon": -0.476014
+    },
+    "Cap Métiers": {
+      "lat": 44.839447,
+      "lon": -0.552208
+    },
+    "Lycée Vaclav Havel": {
+      "lat": 44.858379,
+      "lon": -0.483479
+    },
+    "Hôpital Pellegrin": {
+      "lat": 44.835388,
+      "lon": -0.577679
+    },
+    "Hôpital Pellegrin - Tondu": {
+      "lat": 44.829953,
+      "lon": -0.586137
+    },
+    "Palais de Justice - Mériadeck": {
+      "lat": 48.96058,
+      "lon": 2.883376
+    },
+    "Hôtel de Ville": {
+      "lat": 44.838345,
+      "lon": -0.57889
+    },
+    "Les Hangars (Médoc)": {
+      "lat": 44.859552,
+      "lon": -0.568371
+    },
+    "Cenon Gare": {
+      "lat": 44.84421,
+      "lon": -0.548065
+    },
+    "Cenon Pont Rouge": {
+      "lat": 44.84421,
+      "lon": -0.548065
+    },
+    "Mairie de Cenon": {
+      "lat": 44.84421,
+      "lon": -0.548065
+    },
+    "Lauriers": {
+      "lat": 44.841084,
+      "lon": -0.572329
+    },
+    "Gravières": {
+      "lat": null,
+      "lon": null
+    },
+    "La Morlette": {
+      "lat": null,
+      "lon": null
+    },
+    "Floirac Dravemont": {
+      "lat": null,
+      "lon": null
+    },
+    "Stalingrad": {
+      "lat": 44.840489,
+      "lon": -0.559678
+    },
+    "Jean Zay": {
+      "lat": null,
+      "lon": null
+    },
+    "Saint-Aubin-de-Médoc - Villepreux": {
+      "lat": 44.914799,
+      "lon": -0.741432
+    },
+    "Hippodrome": {
+      "lat": null,
+      "lon": null
+    },
+    "Simone Veil": {
+      "lat": 44.864276,
+      "lon": -0.502266
+    },
+    "Chambre de Commerce": {
+      "lat": 44.827033,
+      "lon": -0.552346
+    },
+    "Les Écus": {
+      "lat": null,
+      "lon": null
+    },
+    "Place Ravezies - La Boucaïre": {
+      "lat": 44.865643,
+      "lon": -0.575115
+    },
+    "Cenon Courbet": {
+      "lat": 44.84421,
+      "lon": -0.548065
+    },
+    "Camille Godard - Jardin Public": {
+      "lat": 44.854787,
+      "lon": -0.580087
+    },
+    "Paul Doumer - Mûriers": {
+      "lat": 44.857077,
+      "lon": -0.616692
+    },
+    "Fondaudège - Mûriers": {
+      "lat": 44.848066,
+      "lon": -0.582274
+    },
+    "Catherine Cérilla": {
+      "lat": 44.836353,
+      "lon": -0.573597
+    },
+    "La Belle Rose": {
+      "lat": 44.855263,
+      "lon": -0.570299
+    },
+    "Calvet Centoujours": {
+      "lat": null,
+      "lon": null
+    },
+    "Pont de Bègles": {
+      "lat": 44.82149,
+      "lon": -0.566258
+    },
+    "Gare de Bègles": {
+      "lat": 44.82149,
+      "lon": -0.566258
+    },
+    "Saint-Michel": {
+      "lat": 44.843531,
+      "lon": -0.576902
+    },
+    "Sainte-Catherine": {
+      "lat": 44.836353,
+      "lon": -0.573597
+    },
+    "Place du Palais": {
+      "lat": 44.838387,
+      "lon": -0.569388
+    },
+    "Navette Arena - Cébétang Concerts": {
+      "lat": null,
+      "lon": null
+    }
+  }
 }

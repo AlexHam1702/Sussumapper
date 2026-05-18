@@ -5,23 +5,36 @@
       "nom": "Métro A",
       "couleur": "rouge",
       "stations": [
-        "Perrache", "Ampère - Victor Hugo", "Bellecour",
-        "Cordeliers", "Hôtel de Ville - Louis Pradel",
-        "Foch", "Masséna", "Charpennes - Charles Hernu",
-        "République - Villeurbanne", "Gratte-Ciel",
-        "Flachet - Alain Gilles", "Cusset",
-        "Laurent Bonnevay - Astroballe", "Vaulx-en-Velin - La Soie"
+        "Perrache",
+        "Ampère - Victor Hugo",
+        "Bellecour",
+        "Cordeliers",
+        "Hôtel de Ville - Louis Pradel",
+        "Foch",
+        "Masséna",
+        "Charpennes - Charles Hernu",
+        "République - Villeurbanne",
+        "Gratte-Ciel",
+        "Flachet - Alain Gilles",
+        "Cusset",
+        "Laurent Bonnevay - Astroballe",
+        "Vaulx-en-Velin - La Soie"
       ]
     },
     "B": {
       "nom": "Métro B",
       "couleur": "bleu",
       "stations": [
-        "Charpennes - Charles Hernu", "Brotteaux",
-        "Part-Dieu", "Place Guichard - Bourse du Travail",
-        "Saxe - Gambetta", "Jean Macé",
-        "Place Jean Jaurès", "Debourg",
-        "Stade de Gerland", "Oullins - Gare",
+        "Charpennes - Charles Hernu",
+        "Brotteaux",
+        "Part-Dieu",
+        "Place Guichard - Bourse du Travail",
+        "Saxe - Gambetta",
+        "Jean Macé",
+        "Place Jean Jaurès",
+        "Debourg",
+        "Stade de Gerland",
+        "Oullins - Gare",
         "Saint-Genis-Laval - Hôpitaux Sud"
       ]
     },
@@ -29,21 +42,31 @@
       "nom": "Métro C",
       "couleur": "orange",
       "stations": [
-        "Hôtel de Ville - Louis Pradel", "Croix-Paquet",
-        "Croix-Rousse", "Hénon", "Cuire"
+        "Hôtel de Ville - Louis Pradel",
+        "Croix-Paquet",
+        "Croix-Rousse",
+        "Hénon",
+        "Cuire"
       ]
     },
     "D": {
       "nom": "Métro D",
       "couleur": "vert",
       "stations": [
-        "Gare de Vaise", "Valmy",
-        "Gorge de Loup", "Vieux Lyon - Cathédrale Saint-Jean",
-        "Bellecour", "Guillotière",
-        "Saxe - Gambetta", "Garibaldi",
-        "Sans Souci", "Monplaisir - Lumière",
-        "Grange Blanche", "Laënnec",
-        "Mermoz - Pinel", "Parilly",
+        "Gare de Vaise",
+        "Valmy",
+        "Gorge de Loup",
+        "Vieux Lyon - Cathédrale Saint-Jean",
+        "Bellecour",
+        "Guillotière",
+        "Saxe - Gambetta",
+        "Garibaldi",
+        "Sans Souci",
+        "Monplaisir - Lumière",
+        "Grange Blanche",
+        "Laënnec",
+        "Mermoz - Pinel",
+        "Parilly",
         "Gare de Vénissieux"
       ]
     },
@@ -51,36 +74,54 @@
       "nom": "Tramway T1",
       "couleur": "bleu",
       "stations": [
-        "IUT - Feyssine", "Université Lyon 1",
-        "La Doua - Gaston Berger", "INSA - Einstein",
-        "Croix-Luizet", "Charpennes - Charles Hernu",
+        "IUT - Feyssine",
+        "Université Lyon 1",
+        "La Doua - Gaston Berger",
+        "INSA - Einstein",
+        "Croix-Luizet",
+        "Charpennes - Charles Hernu",
         "Cité Internationale - Centre de Congrès",
-        "Interpol", "Lycée Colbert",
-        "Thiers - Lafayette", "Part-Dieu - Auditorium",
-        "Part-Dieu - Servient", "Palais de Justice - Maison de la Danse",
-        "Rue de l'Université", "Place Guichard - Bourse du Travail",
-        "Saxe - Gambetta", "Manufacture des Tabacs",
+        "Interpol",
+        "Lycée Colbert",
+        "Thiers - Lafayette",
+        "Part-Dieu - Auditorium",
+        "Part-Dieu - Servient",
+        "Palais de Justice - Maison de la Danse",
+        "Rue de l'Université",
+        "Place Guichard - Bourse du Travail",
+        "Saxe - Gambetta",
+        "Manufacture des Tabacs",
         "Gare de la Mouche - Jean Jaurès",
-        "Halle Tony Garnier", "Debourg",
-        "ENS Lyon", "Gerland"
+        "Halle Tony Garnier",
+        "Debourg",
+        "ENS Lyon",
+        "Gerland"
       ]
     },
     "T2": {
       "nom": "Tramway T2",
       "couleur": "violet",
       "stations": [
-        "Perrache", "Centre Berthelot",
-        "Jean Macé", "Route de Vienne",
-        "Jean Jaurès - Viviani", "Garibaldi",
+        "Perrache",
+        "Centre Berthelot",
+        "Jean Macé",
+        "Route de Vienne",
+        "Jean Jaurès - Viviani",
+        "Garibaldi",
         "Manufacture des Tabacs",
-        "Grange Blanche", "Ambroise Paré",
-        "Essarts - Iris", "Mermoz - Pinel",
-        "Bachut - Mairie du 8e", "États-Unis - Beauvisage",
+        "Grange Blanche",
+        "Ambroise Paré",
+        "Essarts - Iris",
+        "Mermoz - Pinel",
+        "Bachut - Mairie du 8e",
+        "États-Unis - Beauvisage",
         "Jet d'Eau - Mendès France",
         "Grand Trou - Moulin à Vent",
         "Professeur Beauvisage - CISL",
-        "Tase", "Eurexpo",
-        "Porte des Alpes", "Parilly",
+        "Tase",
+        "Eurexpo",
+        "Porte des Alpes",
+        "Parilly",
         "Saint-Priest - Bel Air"
       ]
     },
@@ -89,24 +130,32 @@
       "couleur": "orange",
       "stations": [
         "Gare Part-Dieu - Villette",
-        "Thiers - Lafayette", "Liberté",
+        "Thiers - Lafayette",
+        "Liberté",
         "Dauphiné - Lacassagne",
-        "Grange Blanche", "Laënnec",
-        "Mermoz - Pinel", "Parilly",
-        "Gare de Vénissieux", "Vénissieux - Marcel Houël",
-        "Méridienne", "Meyzieu - Z.I."
+        "Grange Blanche",
+        "Laënnec",
+        "Mermoz - Pinel",
+        "Parilly",
+        "Gare de Vénissieux",
+        "Vénissieux - Marcel Houël",
+        "Méridienne",
+        "Meyzieu - Z.I."
       ]
     },
     "T4": {
       "nom": "Tramway T4",
       "couleur": "jaune",
       "stations": [
-        "Foch", "Masséna",
+        "Foch",
+        "Masséna",
         "Charpennes - Charles Hernu",
-        "Tonkin", "La Doua - Gaston Berger",
+        "Tonkin",
+        "La Doua - Gaston Berger",
         "Campus Lyon - La Doua",
         "Croix-Luizet - La Doua",
-        "Villette", "Cyprian - Les Brosses",
+        "Villette",
+        "Cyprian - Les Brosses",
         "Thiers - Lafayette",
         "Reconnaissance - Balzac",
         "La Soie"
@@ -116,13 +165,20 @@
       "nom": "Tramway T5",
       "couleur": "bleu clair",
       "stations": [
-        "Grange Blanche", "Ambroise Paré",
-        "Essarts - Iris", "Mermoz - Pinel",
-        "Parilly - Université", "Eurexpo - Université",
-        "Porte des Alpes", "Parc Technologique",
-        "Hauts de Feuilly", "Salvador Allende",
-        "Alfred de Vigny", "Saint-Priest - Hôtel de Ville",
-        "Esplanade des Arts", "Jules Ferry",
+        "Grange Blanche",
+        "Ambroise Paré",
+        "Essarts - Iris",
+        "Mermoz - Pinel",
+        "Parilly - Université",
+        "Eurexpo - Université",
+        "Porte des Alpes",
+        "Parc Technologique",
+        "Hauts de Feuilly",
+        "Salvador Allende",
+        "Alfred de Vigny",
+        "Saint-Priest - Hôtel de Ville",
+        "Esplanade des Arts",
+        "Jules Ferry",
         "Saint-Priest - Bel Air"
       ]
     },
@@ -130,14 +186,21 @@
       "nom": "Tramway T6",
       "couleur": "violet",
       "stations": [
-        "Debourg", "ENS Lyon",
-        "Stade de Gerland", "Halle Tony Garnier",
-        "Lycée Lumière", "Jean XXIII - Maryse Bastié",
-        "Route de Vienne", "Jean Jaurès - Viviani",
-        "E.U. Moulin à Vent", "Joliot Curie",
-        "La Borelle", "Parilly",
+        "Debourg",
+        "ENS Lyon",
+        "Stade de Gerland",
+        "Halle Tony Garnier",
+        "Lycée Lumière",
+        "Jean XXIII - Maryse Bastié",
+        "Route de Vienne",
+        "Jean Jaurès - Viviani",
+        "E.U. Moulin à Vent",
+        "Joliot Curie",
+        "La Borelle",
+        "Parilly",
         "Marcel Houël - Vénissieux",
-        "Léon Blum", "Marcel Cachin",
+        "Léon Blum",
+        "Marcel Cachin",
         "Jacques Monod - Hôpitaux Sud"
       ]
     },
@@ -147,41 +210,681 @@
       "stations": [
         "Vaulx-en-Velin - La Soie",
         "Bel Air - Les Brosses",
-        "Décines Centre", "Décines Grand Large",
-        "Meyzieu Gare", "Meyzieu Z.I."
+        "Décines Centre",
+        "Décines Grand Large",
+        "Meyzieu Gare",
+        "Meyzieu Z.I."
       ]
     }
   },
   "connexions": [],
   "correspondances": [
-    {"station": "Charpennes - Charles Hernu", "lignes": ["A", "B", "T1", "T4"], "temps": 120},
-    {"station": "Bellecour", "lignes": ["A", "D"], "temps": 120},
-    {"station": "Hôtel de Ville - Louis Pradel", "lignes": ["A", "C"], "temps": 120},
-    {"station": "Saxe - Gambetta", "lignes": ["B", "D", "T1"], "temps": 120},
-    {"station": "Part-Dieu", "lignes": ["B", "T1"], "temps": 120},
-    {"station": "Jean Macé", "lignes": ["B", "T2"], "temps": 120},
-    {"station": "Debourg", "lignes": ["B", "T1", "T6"], "temps": 120},
-    {"station": "Place Guichard - Bourse du Travail", "lignes": ["B", "T1"], "temps": 120},
-    {"station": "Grange Blanche", "lignes": ["D", "T2", "T3", "T5"], "temps": 120},
-    {"station": "Mermoz - Pinel", "lignes": ["D", "T2", "T3", "T5"], "temps": 120},
-    {"station": "Parilly", "lignes": ["D", "T2", "T3", "T6"], "temps": 120},
-    {"station": "Gare de Vénissieux", "lignes": ["D", "T3"], "temps": 120},
-    {"station": "Garibaldi", "lignes": ["D", "T2"], "temps": 120},
-    {"station": "Perrache", "lignes": ["A", "T2"], "temps": 120},
-    {"station": "Thiers - Lafayette", "lignes": ["T1", "T3", "T4"], "temps": 120},
-    {"station": "Foch", "lignes": ["A", "T4"], "temps": 120},
-    {"station": "Masséna", "lignes": ["A", "T4"], "temps": 120},
-    {"station": "La Doua - Gaston Berger", "lignes": ["T1", "T4"], "temps": 120},
-    {"station": "Croix-Luizet", "lignes": ["T1", "T4"], "temps": 120},
-    {"station": "Manufacture des Tabacs", "lignes": ["T1", "T2"], "temps": 120},
-    {"station": "Laënnec", "lignes": ["D", "T3"], "temps": 120},
-    {"station": "Vaulx-en-Velin - La Soie", "lignes": ["A", "T7"], "temps": 120},
-    {"station": "Saint-Priest - Bel Air", "lignes": ["T2", "T5"], "temps": 120},
-    {"station": "Stade de Gerland", "lignes": ["B", "T6"], "temps": 120},
-    {"station": "Halle Tony Garnier", "lignes": ["T1", "T6"], "temps": 120},
-    {"station": "Route de Vienne", "lignes": ["T2", "T6"], "temps": 120},
-    {"station": "Meyzieu Z.I.", "lignes": ["T3", "T7"], "temps": 120}
+    {
+      "station": "Charpennes - Charles Hernu",
+      "lignes": [
+        "A",
+        "B",
+        "T1",
+        "T4"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Bellecour",
+      "lignes": [
+        "A",
+        "D"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Hôtel de Ville - Louis Pradel",
+      "lignes": [
+        "A",
+        "C"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Saxe - Gambetta",
+      "lignes": [
+        "B",
+        "D",
+        "T1"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Part-Dieu",
+      "lignes": [
+        "B",
+        "T1"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Jean Macé",
+      "lignes": [
+        "B",
+        "T2"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Debourg",
+      "lignes": [
+        "B",
+        "T1",
+        "T6"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Place Guichard - Bourse du Travail",
+      "lignes": [
+        "B",
+        "T1"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Grange Blanche",
+      "lignes": [
+        "D",
+        "T2",
+        "T3",
+        "T5"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Mermoz - Pinel",
+      "lignes": [
+        "D",
+        "T2",
+        "T3",
+        "T5"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Parilly",
+      "lignes": [
+        "D",
+        "T2",
+        "T3",
+        "T6"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Gare de Vénissieux",
+      "lignes": [
+        "D",
+        "T3"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Garibaldi",
+      "lignes": [
+        "D",
+        "T2"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Perrache",
+      "lignes": [
+        "A",
+        "T2"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Thiers - Lafayette",
+      "lignes": [
+        "T1",
+        "T3",
+        "T4"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Foch",
+      "lignes": [
+        "A",
+        "T4"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Masséna",
+      "lignes": [
+        "A",
+        "T4"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "La Doua - Gaston Berger",
+      "lignes": [
+        "T1",
+        "T4"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Croix-Luizet",
+      "lignes": [
+        "T1",
+        "T4"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Manufacture des Tabacs",
+      "lignes": [
+        "T1",
+        "T2"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Laënnec",
+      "lignes": [
+        "D",
+        "T3"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Vaulx-en-Velin - La Soie",
+      "lignes": [
+        "A",
+        "T7"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Saint-Priest - Bel Air",
+      "lignes": [
+        "T2",
+        "T5"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Stade de Gerland",
+      "lignes": [
+        "B",
+        "T6"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Halle Tony Garnier",
+      "lignes": [
+        "T1",
+        "T6"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Route de Vienne",
+      "lignes": [
+        "T2",
+        "T6"
+      ],
+      "temps": 120
+    },
+    {
+      "station": "Meyzieu Z.I.",
+      "lignes": [
+        "T3",
+        "T7"
+      ],
+      "temps": 120
+    }
   ],
   "temps_moyen": 95,
-  "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne."
+  "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne.",
+  "stations_info": {
+    "Perrache": {
+      "lat": 45.740366,
+      "lon": 4.823424
+    },
+    "Ampère - Victor Hugo": {
+      "lat": 45.754095,
+      "lon": 4.829832
+    },
+    "Bellecour": {
+      "lat": 45.757597,
+      "lon": 4.831662
+    },
+    "Cordeliers": {
+      "lat": 45.763616,
+      "lon": 4.837405
+    },
+    "Hôtel de Ville - Louis Pradel": {
+      "lat": 49.398444,
+      "lon": 1.47518
+    },
+    "Foch": {
+      "lat": null,
+      "lon": null
+    },
+    "Masséna": {
+      "lat": 45.767934,
+      "lon": 4.854506
+    },
+    "Charpennes - Charles Hernu": {
+      "lat": 49.575512,
+      "lon": 2.988592
+    },
+    "République - Villeurbanne": {
+      "lat": 45.767933,
+      "lon": 4.873906
+    },
+    "Gratte-Ciel": {
+      "lat": null,
+      "lon": null
+    },
+    "Flachet - Alain Gilles": {
+      "lat": null,
+      "lon": null
+    },
+    "Cusset": {
+      "lat": null,
+      "lon": null
+    },
+    "Laurent Bonnevay - Astroballe": {
+      "lat": 45.628455,
+      "lon": 4.459631
+    },
+    "Vaulx-en-Velin - La Soie": {
+      "lat": 45.770319,
+      "lon": 4.932491
+    },
+    "Brotteaux": {
+      "lat": 45.766869,
+      "lon": 4.857034
+    },
+    "Part-Dieu": {
+      "lat": 45.759487,
+      "lon": 4.84634
+    },
+    "Place Guichard - Bourse du Travail": {
+      "lat": 45.759204,
+      "lon": 4.847374
+    },
+    "Saxe - Gambetta": {
+      "lat": 45.753079,
+      "lon": 4.849971
+    },
+    "Jean Macé": {
+      "lat": 45.745854,
+      "lon": 4.84258
+    },
+    "Place Jean Jaurès": {
+      "lat": 45.739906,
+      "lon": 4.839663
+    },
+    "Debourg": {
+      "lat": 45.731409,
+      "lon": 4.832042
+    },
+    "Stade de Gerland": {
+      "lat": 45.735487,
+      "lon": 4.839588
+    },
+    "Oullins - Gare": {
+      "lat": null,
+      "lon": null
+    },
+    "Saint-Genis-Laval - Hôpitaux Sud": {
+      "lat": 45.699289,
+      "lon": 4.796074
+    },
+    "Croix-Paquet": {
+      "lat": 45.769936,
+      "lon": 4.836074
+    },
+    "Croix-Rousse": {
+      "lat": 45.775546,
+      "lon": 4.832491
+    },
+    "Hénon": {
+      "lat": 45.779578,
+      "lon": 4.825019
+    },
+    "Cuire": {
+      "lat": 45.778004,
+      "lon": 4.829962
+    },
+    "Gare de Vaise": {
+      "lat": 45.774422,
+      "lon": 4.807239
+    },
+    "Valmy": {
+      "lat": 45.775293,
+      "lon": 4.805381
+    },
+    "Gorge de Loup": {
+      "lat": 45.769555,
+      "lon": 4.801976
+    },
+    "Vieux Lyon - Cathédrale Saint-Jean": {
+      "lat": null,
+      "lon": null
+    },
+    "Guillotière": {
+      "lat": 45.756623,
+      "lon": 4.838923
+    },
+    "Garibaldi": {
+      "lat": 45.756911,
+      "lon": 4.852761
+    },
+    "Sans Souci": {
+      "lat": 45.805589,
+      "lon": 4.774431
+    },
+    "Monplaisir - Lumière": {
+      "lat": 45.747578,
+      "lon": 4.862395
+    },
+    "Grange Blanche": {
+      "lat": 48.154477,
+      "lon": 6.772213
+    },
+    "Laënnec": {
+      "lat": 45.737921,
+      "lon": 4.885001
+    },
+    "Mermoz - Pinel": {
+      "lat": 45.733636,
+      "lon": 4.878131
+    },
+    "Parilly": {
+      "lat": null,
+      "lon": null
+    },
+    "Gare de Vénissieux": {
+      "lat": null,
+      "lon": null
+    },
+    "IUT - Feyssine": {
+      "lat": null,
+      "lon": null
+    },
+    "Université Lyon 1": {
+      "lat": 45.752228,
+      "lon": 4.836139
+    },
+    "La Doua - Gaston Berger": {
+      "lat": null,
+      "lon": null
+    },
+    "INSA - Einstein": {
+      "lat": null,
+      "lon": null
+    },
+    "Croix-Luizet": {
+      "lat": null,
+      "lon": null
+    },
+    "Cité Internationale - Centre de Congrès": {
+      "lat": null,
+      "lon": null
+    },
+    "Interpol": {
+      "lat": null,
+      "lon": null
+    },
+    "Lycée Colbert": {
+      "lat": 45.772465,
+      "lon": 4.834424
+    },
+    "Thiers - Lafayette": {
+      "lat": 45.763497,
+      "lon": 4.855648
+    },
+    "Part-Dieu - Auditorium": {
+      "lat": 45.759487,
+      "lon": 4.84634
+    },
+    "Part-Dieu - Servient": {
+      "lat": 45.760311,
+      "lon": 4.84765
+    },
+    "Palais de Justice - Maison de la Danse": {
+      "lat": null,
+      "lon": null
+    },
+    "Rue de l'Université": {
+      "lat": 45.749711,
+      "lon": 4.841067
+    },
+    "Manufacture des Tabacs": {
+      "lat": 48.581157,
+      "lon": 7.759175
+    },
+    "Gare de la Mouche - Jean Jaurès": {
+      "lat": 45.739906,
+      "lon": 4.839663
+    },
+    "Halle Tony Garnier": {
+      "lat": 45.727424,
+      "lon": 4.829505
+    },
+    "ENS Lyon": {
+      "lat": null,
+      "lon": null
+    },
+    "Gerland": {
+      "lat": 45.735487,
+      "lon": 4.839588
+    },
+    "Centre Berthelot": {
+      "lat": 45.743773,
+      "lon": 4.846469
+    },
+    "Route de Vienne": {
+      "lat": 47.964217,
+      "lon": 3.532624
+    },
+    "Jean Jaurès - Viviani": {
+      "lat": 45.740015,
+      "lon": 4.838764
+    },
+    "Ambroise Paré": {
+      "lat": 45.735903,
+      "lon": 4.882306
+    },
+    "Essarts - Iris": {
+      "lat": 49.305593,
+      "lon": -0.322396
+    },
+    "Bachut - Mairie du 8e": {
+      "lat": 43.39977,
+      "lon": 3.68475
+    },
+    "États-Unis - Beauvisage": {
+      "lat": 45.730628,
+      "lon": 4.869849
+    },
+    "Jet d'Eau - Mendès France": {
+      "lat": 45.739065,
+      "lon": 4.860401
+    },
+    "Grand Trou - Moulin à Vent": {
+      "lat": 45.730482,
+      "lon": 4.858069
+    },
+    "Professeur Beauvisage - CISL": {
+      "lat": 45.729638,
+      "lon": 4.868099
+    },
+    "Tase": {
+      "lat": null,
+      "lon": null
+    },
+    "Eurexpo": {
+      "lat": 47.992734,
+      "lon": 3.767943
+    },
+    "Porte des Alpes": {
+      "lat": 45.53379,
+      "lon": 4.874479
+    },
+    "Saint-Priest - Bel Air": {
+      "lat": 46.182469,
+      "lon": 1.566193
+    },
+    "Gare Part-Dieu - Villette": {
+      "lat": 45.759487,
+      "lon": 4.84634
+    },
+    "Liberté": {
+      "lat": 45.759048,
+      "lon": 4.842468
+    },
+    "Dauphiné - Lacassagne": {
+      "lat": 45.749531,
+      "lon": 4.878098
+    },
+    "Vénissieux - Marcel Houël": {
+      "lat": 45.696717,
+      "lon": 4.885538
+    },
+    "Méridienne": {
+      "lat": null,
+      "lon": null
+    },
+    "Meyzieu - Z.I.": {
+      "lat": 45.761024,
+      "lon": 5.007387
+    },
+    "Tonkin": {
+      "lat": null,
+      "lon": null
+    },
+    "Campus Lyon - La Doua": {
+      "lat": null,
+      "lon": null
+    },
+    "Croix-Luizet - La Doua": {
+      "lat": null,
+      "lon": null
+    },
+    "Villette": {
+      "lat": 45.760672,
+      "lon": 4.861769
+    },
+    "Cyprian - Les Brosses": {
+      "lat": null,
+      "lon": null
+    },
+    "Reconnaissance - Balzac": {
+      "lat": 45.753762,
+      "lon": 4.88611
+    },
+    "La Soie": {
+      "lat": null,
+      "lon": null
+    },
+    "Parilly - Université": {
+      "lat": 45.752228,
+      "lon": 4.836139
+    },
+    "Eurexpo - Université": {
+      "lat": 45.752228,
+      "lon": 4.836139
+    },
+    "Parc Technologique": {
+      "lat": 47.324201,
+      "lon": 0.601523
+    },
+    "Hauts de Feuilly": {
+      "lat": null,
+      "lon": null
+    },
+    "Salvador Allende": {
+      "lat": 49.50445,
+      "lon": 0.142181
+    },
+    "Alfred de Vigny": {
+      "lat": 45.74694,
+      "lon": 4.890745
+    },
+    "Saint-Priest - Hôtel de Ville": {
+      "lat": 46.182469,
+      "lon": 1.566193
+    },
+    "Esplanade des Arts": {
+      "lat": 45.753858,
+      "lon": 4.861706
+    },
+    "Jules Ferry": {
+      "lat": 45.767423,
+      "lon": 4.859221
+    },
+    "Lycée Lumière": {
+      "lat": 45.741503,
+      "lon": 4.868601
+    },
+    "Jean XXIII - Maryse Bastié": {
+      "lat": 45.737787,
+      "lon": 4.873988
+    },
+    "E.U. Moulin à Vent": {
+      "lat": null,
+      "lon": null
+    },
+    "Joliot Curie": {
+      "lat": 45.754883,
+      "lon": 4.786833
+    },
+    "La Borelle": {
+      "lat": 45.754867,
+      "lon": 4.826063
+    },
+    "Marcel Houël - Vénissieux": {
+      "lat": 45.696717,
+      "lon": 4.885538
+    },
+    "Léon Blum": {
+      "lat": 49.565335,
+      "lon": 3.641426
+    },
+    "Marcel Cachin": {
+      "lat": null,
+      "lon": null
+    },
+    "Jacques Monod - Hôpitaux Sud": {
+      "lat": 45.730554,
+      "lon": 4.829262
+    },
+    "Bel Air - Les Brosses": {
+      "lat": 49.46958,
+      "lon": 1.616861
+    },
+    "Décines Centre": {
+      "lat": null,
+      "lon": null
+    },
+    "Décines Grand Large": {
+      "lat": 45.781304,
+      "lon": 4.974292
+    },
+    "Meyzieu Gare": {
+      "lat": 45.761024,
+      "lon": 5.007387
+    },
+    "Meyzieu Z.I.": {
+      "lat": 45.761024,
+      "lon": 5.007387
+    }
+  }
 }
