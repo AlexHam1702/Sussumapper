@@ -50,7 +50,7 @@ class RoutePlannerGUI(QMainWindow):
         # 1. Dessiner la ligne épaisse du trajet
         folium.PolyLine(
             coords, 
-            color="#14C371", # Un beau vert Citymapper
+            color="#14C371",
             weight=5, 
             opacity=0.9
         ).add_to(m)
