@@ -451,440 +451,440 @@
   "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne.",
   "stations_info": {
     "Perrache": {
-      "lat": 45.740366,
-      "lon": 4.823424
+      "lat": 45.740204,
+      "lon": 4.823231
     },
     "Ampère - Victor Hugo": {
-      "lat": 45.754095,
-      "lon": 4.829832
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Bellecour": {
-      "lat": 45.757597,
-      "lon": 4.831662
+      "lat": 45.7578,
+      "lon": 4.8337
     },
     "Cordeliers": {
-      "lat": 45.763616,
-      "lon": 4.837405
+      "lat": 45.763584,
+      "lon": 4.836992
     },
     "Hôtel de Ville - Louis Pradel": {
-      "lat": 49.398444,
-      "lon": 1.47518
+      "lat": 48.8601,
+      "lon": 2.3507
     },
     "Foch": {
-      "lat": null,
-      "lon": null
+      "lat": 45.768747,
+      "lon": 4.844089
     },
     "Masséna": {
-      "lat": 45.767934,
-      "lon": 4.854506
+      "lat": 45.769447,
+      "lon": 4.853003
     },
     "Charpennes - Charles Hernu": {
-      "lat": 49.575512,
-      "lon": 2.988592
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "République - Villeurbanne": {
-      "lat": 45.767933,
-      "lon": 4.873906
+      "lat": 45.768004,
+      "lon": 4.873845
     },
     "Gratte-Ciel": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Flachet - Alain Gilles": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Cusset": {
-      "lat": null,
-      "lon": null
+      "lat": 46.131907,
+      "lon": 3.456365
     },
     "Laurent Bonnevay - Astroballe": {
-      "lat": 45.628455,
-      "lon": 4.459631
+      "lat": 45.78601,
+      "lon": 4.860024
     },
     "Vaulx-en-Velin - La Soie": {
-      "lat": 45.770319,
-      "lon": 4.932491
+      "lat": 45.761019,
+      "lon": 4.92069
     },
     "Brotteaux": {
-      "lat": 45.766869,
-      "lon": 4.857034
+      "lat": 45.767295,
+      "lon": 4.859448
     },
     "Part-Dieu": {
-      "lat": 45.759487,
-      "lon": 4.84634
+      "lat": 45.760728,
+      "lon": 4.860511
     },
     "Place Guichard - Bourse du Travail": {
-      "lat": 45.759204,
-      "lon": 4.847374
+      "lat": 45.7594,
+      "lon": 4.8477
     },
     "Saxe - Gambetta": {
-      "lat": 45.753079,
-      "lon": 4.849971
+      "lat": 45.753831,
+      "lon": 4.846801
     },
     "Jean Macé": {
-      "lat": 45.745854,
-      "lon": 4.84258
+      "lat": 45.74535,
+      "lon": 4.8439
     },
     "Place Jean Jaurès": {
-      "lat": 45.739906,
-      "lon": 4.839663
+      "lat": 45.737656,
+      "lon": 4.83707
     },
     "Debourg": {
-      "lat": 45.731409,
-      "lon": 4.832042
+      "lat": 45.730917,
+      "lon": 4.83464
     },
     "Stade de Gerland": {
-      "lat": 45.735487,
-      "lon": 4.839588
+      "lat": 45.727383,
+      "lon": 4.831373
     },
     "Oullins - Gare": {
-      "lat": null,
-      "lon": null
+      "lat": 45.71417,
+      "lon": 4.8075
     },
     "Saint-Genis-Laval - Hôpitaux Sud": {
-      "lat": 45.699289,
-      "lon": 4.796074
+      "lat": 45.6957,
+      "lon": 4.7933
     },
     "Croix-Paquet": {
-      "lat": 45.769936,
-      "lon": 4.836074
+      "lat": 45.770685,
+      "lon": 4.836064
     },
     "Croix-Rousse": {
-      "lat": 45.775546,
-      "lon": 4.832491
+      "lat": 45.77374,
+      "lon": 4.82695
     },
     "Hénon": {
-      "lat": 45.779578,
-      "lon": 4.825019
+      "lat": 45.779475,
+      "lon": 4.827617
     },
     "Cuire": {
-      "lat": 45.778004,
-      "lon": 4.829962
+      "lat": 45.776998,
+      "lon": 4.830178
     },
     "Gare de Vaise": {
-      "lat": 45.774422,
-      "lon": 4.807239
+      "lat": 45.77262,
+      "lon": 4.80374
     },
     "Valmy": {
-      "lat": 45.775293,
-      "lon": 4.805381
+      "lat": 45.774477,
+      "lon": 4.805477
     },
     "Gorge de Loup": {
-      "lat": 45.769555,
-      "lon": 4.801976
+      "lat": 45.768137,
+      "lon": 4.798429
     },
     "Vieux Lyon - Cathédrale Saint-Jean": {
-      "lat": null,
-      "lon": null
+      "lat": 45.78149,
+      "lon": 4.90121
     },
     "Guillotière": {
-      "lat": 45.756623,
-      "lon": 4.838923
+      "lat": 45.75616,
+      "lon": 4.84785
     },
     "Garibaldi": {
-      "lat": 45.756911,
-      "lon": 4.852761
+      "lat": 45.751623,
+      "lon": 4.853355
     },
     "Sans Souci": {
-      "lat": 45.805589,
-      "lon": 4.774431
+      "lat": 45.74801,
+      "lon": 4.864418
     },
     "Monplaisir - Lumière": {
-      "lat": 45.747578,
-      "lon": 4.862395
+      "lat": 45.745505,
+      "lon": 4.871696
     },
     "Grange Blanche": {
-      "lat": 48.154477,
-      "lon": 6.772213
+      "lat": 46.066751,
+      "lon": 5.068079
     },
     "Laënnec": {
-      "lat": 45.737921,
-      "lon": 4.885001
+      "lat": 45.738796,
+      "lon": 4.885986
     },
     "Mermoz - Pinel": {
-      "lat": 45.733636,
-      "lon": 4.878131
+      "lat": 45.731072,
+      "lon": 4.887554
     },
     "Parilly": {
-      "lat": null,
-      "lon": null
+      "lat": 45.7255,
+      "lon": 4.90447
     },
     "Gare de Vénissieux": {
-      "lat": null,
-      "lon": null
+      "lat": 45.69694,
+      "lon": 4.88583
     },
     "IUT - Feyssine": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Université Lyon 1": {
-      "lat": 45.752228,
-      "lon": 4.836139
+      "lat": 45.7485,
+      "lon": 4.8366
     },
     "La Doua - Gaston Berger": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "INSA - Einstein": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Croix-Luizet": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Cité Internationale - Centre de Congrès": {
-      "lat": null,
-      "lon": null
+      "lat": 47.41754,
+      "lon": 1.42849
     },
     "Interpol": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Lycée Colbert": {
-      "lat": 45.772465,
-      "lon": 4.834424
+      "lat": 45.772345,
+      "lon": 4.834439
     },
     "Thiers - Lafayette": {
-      "lat": 45.763497,
-      "lon": 4.855648
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Part-Dieu - Auditorium": {
-      "lat": 45.759487,
-      "lon": 4.84634
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Part-Dieu - Servient": {
-      "lat": 45.760311,
-      "lon": 4.84765
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Palais de Justice - Maison de la Danse": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Rue de l'Université": {
-      "lat": 45.749711,
-      "lon": 4.841067
+      "lat": 45.750138,
+      "lon": 4.840391
     },
     "Manufacture des Tabacs": {
-      "lat": 48.581157,
-      "lon": 7.759175
+      "lat": 45.74801,
+      "lon": 4.85989
     },
     "Gare de la Mouche - Jean Jaurès": {
-      "lat": 45.739906,
-      "lon": 4.839663
+      "lat": 45.739655,
+      "lon": 4.836242
     },
     "Halle Tony Garnier": {
-      "lat": 45.727424,
-      "lon": 4.829505
+      "lat": 45.728999,
+      "lon": 4.824963
     },
     "ENS Lyon": {
-      "lat": null,
-      "lon": null
+      "lat": 45.75889,
+      "lon": 4.84139
     },
     "Gerland": {
-      "lat": 45.735487,
-      "lon": 4.839588
+      "lat": 45.72841,
+      "lon": 4.83421
     },
     "Centre Berthelot": {
-      "lat": 45.743773,
-      "lon": 4.846469
+      "lat": 45.754303,
+      "lon": 4.878056
     },
     "Route de Vienne": {
-      "lat": 47.964217,
-      "lon": 3.532624
+      "lat": 45.742398,
+      "lon": 4.850698
     },
     "Jean Jaurès - Viviani": {
-      "lat": 45.740015,
-      "lon": 4.838764
+      "lat": 49.567656,
+      "lon": 3.623324
     },
     "Ambroise Paré": {
-      "lat": 45.735903,
-      "lon": 4.882306
+      "lat": 45.737241,
+      "lon": 4.884102
     },
     "Essarts - Iris": {
-      "lat": 49.305593,
-      "lon": -0.322396
+      "lat": 45.73367,
+      "lon": 4.89475
     },
     "Bachut - Mairie du 8e": {
-      "lat": 43.39977,
-      "lon": 3.68475
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "États-Unis - Beauvisage": {
-      "lat": 45.730628,
-      "lon": 4.869849
+      "lat": 45.73234,
+      "lon": 4.86393
     },
     "Jet d'Eau - Mendès France": {
-      "lat": 45.739065,
-      "lon": 4.860401
+      "lat": 49.582103,
+      "lon": 3.644243
     },
     "Grand Trou - Moulin à Vent": {
-      "lat": 45.730482,
-      "lon": 4.858069
+      "lat": 45.72907,
+      "lon": 4.85225
     },
     "Professeur Beauvisage - CISL": {
-      "lat": 45.729638,
-      "lon": 4.868099
+      "lat": 45.72788,
+      "lon": 4.866516
     },
     "Tase": {
-      "lat": null,
-      "lon": null
+      "lat": 45.781151,
+      "lon": 4.805383
     },
     "Eurexpo": {
-      "lat": 47.992734,
-      "lon": 3.767943
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Porte des Alpes": {
-      "lat": 45.53379,
-      "lon": 4.874479
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Saint-Priest - Bel Air": {
-      "lat": 46.182469,
-      "lon": 1.566193
+      "lat": 45.689937,
+      "lon": 4.965113
     },
     "Gare Part-Dieu - Villette": {
-      "lat": 45.759487,
-      "lon": 4.84634
+      "lat": 45.760728,
+      "lon": 4.860511
     },
     "Liberté": {
-      "lat": 45.759048,
-      "lon": 4.842468
+      "lat": 45.759444,
+      "lon": 4.84241
     },
     "Dauphiné - Lacassagne": {
-      "lat": 45.749531,
-      "lon": 4.878098
+      "lat": 43.35694,
+      "lon": 0.14889
     },
     "Vénissieux - Marcel Houël": {
-      "lat": 45.696717,
-      "lon": 4.885538
+      "lat": 45.69694,
+      "lon": 4.88583
     },
     "Méridienne": {
-      "lat": null,
-      "lon": null
+      "lat": 43.68993,
+      "lon": 3.352506
     },
     "Meyzieu - Z.I.": {
-      "lat": 45.761024,
-      "lon": 5.007387
+      "lat": 45.76639,
+      "lon": 5.00278
     },
     "Tonkin": {
-      "lat": null,
-      "lon": null
+      "lat": 48.91822,
+      "lon": 2.19371
     },
     "Campus Lyon - La Doua": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Croix-Luizet - La Doua": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Villette": {
-      "lat": 45.760672,
-      "lon": 4.861769
+      "lat": 45.760371,
+      "lon": 4.861735
     },
     "Cyprian - Les Brosses": {
-      "lat": null,
-      "lon": null
+      "lat": 45.75528,
+      "lon": 4.91052
     },
     "Reconnaissance - Balzac": {
-      "lat": 45.753762,
-      "lon": 4.88611
+      "lat": 45.753667,
+      "lon": 4.886026
     },
     "La Soie": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Parilly - Université": {
-      "lat": 45.752228,
-      "lon": 4.836139
+      "lat": 45.7255,
+      "lon": 4.90447
     },
     "Eurexpo - Université": {
-      "lat": 45.752228,
-      "lon": 4.836139
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Parc Technologique": {
-      "lat": 47.324201,
-      "lon": 0.601523
+      "lat": 45.713537,
+      "lon": 4.933267
     },
     "Hauts de Feuilly": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Salvador Allende": {
-      "lat": 49.50445,
-      "lon": 0.142181
+      "lat": 49.551956,
+      "lon": 3.618726
     },
     "Alfred de Vigny": {
-      "lat": 45.74694,
-      "lon": 4.890745
+      "lat": 45.746869,
+      "lon": 4.890774
     },
     "Saint-Priest - Hôtel de Ville": {
-      "lat": 46.182469,
-      "lon": 1.566193
+      "lat": 45.6946,
+      "lon": 4.93706
     },
     "Esplanade des Arts": {
-      "lat": 45.753858,
-      "lon": 4.861706
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Jules Ferry": {
-      "lat": 45.767423,
-      "lon": 4.859221
+      "lat": 45.767206,
+      "lon": 4.859071
     },
     "Lycée Lumière": {
-      "lat": 45.741503,
-      "lon": 4.868601
+      "lat": 45.741479,
+      "lon": 4.868639
     },
     "Jean XXIII - Maryse Bastié": {
-      "lat": 45.737787,
-      "lon": 4.873988
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "E.U. Moulin à Vent": {
-      "lat": null,
-      "lon": null
+      "lat": 46.554492,
+      "lon": 2.939004
     },
     "Joliot Curie": {
-      "lat": 45.754883,
-      "lon": 4.786833
+      "lat": 45.67974,
+      "lon": 4.94149
     },
     "La Borelle": {
-      "lat": 45.754867,
-      "lon": 4.826063
+      "lat": 46.25291,
+      "lon": 4.33894
     },
     "Marcel Houël - Vénissieux": {
-      "lat": 45.696717,
-      "lon": 4.885538
+      "lat": 45.696746,
+      "lon": 4.885782
     },
     "Léon Blum": {
-      "lat": 49.565335,
-      "lon": 3.641426
+      "lat": 49.562602,
+      "lon": 3.640097
     },
     "Marcel Cachin": {
-      "lat": null,
-      "lon": null
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Jacques Monod - Hôpitaux Sud": {
-      "lat": 45.730554,
-      "lon": 4.829262
+      "lat": 45.65823,
+      "lon": 4.90638
     },
     "Bel Air - Les Brosses": {
-      "lat": 49.46958,
-      "lon": 1.616861
+      "lat": 45.88185,
+      "lon": 5.14888
     },
     "Décines Centre": {
-      "lat": null,
-      "lon": null
+      "lat": 45.70201,
+      "lon": 4.88188
     },
     "Décines Grand Large": {
-      "lat": 45.781304,
-      "lon": 4.974292
+      "lat": 45.767635,
+      "lon": 4.835037
     },
     "Meyzieu Gare": {
-      "lat": 45.761024,
-      "lon": 5.007387
+      "lat": 45.761054,
+      "lon": 5.007307
     },
     "Meyzieu Z.I.": {
-      "lat": 45.761024,
-      "lon": 5.007387
+      "lat": 45.76639,
+      "lon": 5.00278
     }
   }
 }

@@ -914,760 +914,760 @@
   "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne.",
   "stations_info": {
     "La Défense": {
-      "lat": 48.894087,
-      "lon": 2.240035
+      "lat": 48.883007,
+      "lon": 2.233255
     },
     "Esplanade de La Défense": {
-      "lat": 49.043189,
-      "lon": 2.038171
+      "lat": 48.885339,
+      "lon": 2.327168
     },
     "Pont de Neuilly": {
-      "lat": 48.878395,
-      "lon": 2.279383
+      "lat": 48.880258,
+      "lon": 2.258486
     },
     "Les Sablons": {
-      "lat": 48.865296,
-      "lon": 2.283064
+      "lat": 48.878675,
+      "lon": 2.270653
     },
     "Porte Maillot": {
-      "lat": 48.878824,
-      "lon": 2.283169
+      "lat": 48.877637,
+      "lon": 2.282159
     },
     "Argentine": {
-      "lat": 48.874559,
-      "lon": 2.289991
+      "lat": 48.875786,
+      "lon": 2.289238
     },
     "Charles de Gaulle - Étoile": {
-      "lat": 44.595154,
-      "lon": 2.292571
+      "lat": 48.875022,
+      "lon": 2.295733
     },
     "George V": {
-      "lat": 48.868346,
-      "lon": 2.301152
+      "lat": 48.871576,
+      "lon": 2.301238
     },
     "Franklin D. Roosevelt": {
-      "lat": 48.869861,
-      "lon": 2.310241
+      "lat": 48.868763,
+      "lon": 2.309444
     },
     "Champs-Élysées - Clemenceau": {
-      "lat": 48.871285,
-      "lon": 2.302859
+      "lat": 48.867632,
+      "lon": 2.313809
     },
     "Concorde": {
-      "lat": 48.867113,
-      "lon": 2.321119
+      "lat": 48.863307,
+      "lon": 2.322081
     },
     "Tuileries": {
-      "lat": 48.863173,
-      "lon": 2.323505
+      "lat": 48.864478,
+      "lon": 2.329678
     },
     "Palais Royal - Musée du Louvre": {
-      "lat": 48.862551,
-      "lon": 2.336751
+      "lat": 48.8661,
+      "lon": 2.34
     },
     "Louvre - Rivoli": {
-      "lat": 48.834502,
-      "lon": 2.118492
+      "lat": 48.860608,
+      "lon": 2.340828
     },
     "Châtelet": {
-      "lat": 48.89717,
-      "lon": 2.324781
+      "lat": 48.857846,
+      "lon": 2.347698
     },
     "Hôtel de Ville": {
-      "lat": 48.854213,
-      "lon": 2.356361
+      "lat": 48.857292,
+      "lon": 2.352033
     },
     "Saint-Paul": {
-      "lat": 14.793916,
-      "lon": -61.009266
+      "lat": 48.855327,
+      "lon": 2.360135
     },
     "Bastille": {
-      "lat": 48.853844,
-      "lon": 2.367974
+      "lat": 48.851901,
+      "lon": 2.368775
     },
     "Gare de Lyon": {
-      "lat": 48.8491,
-      "lon": 2.371086
+      "lat": 48.844805,
+      "lon": 2.372991
     },
     "Reuilly - Diderot": {
-      "lat": 48.844756,
-      "lon": 2.389791
+      "lat": 48.847056,
+      "lon": 2.386851
     },
     "Nation": {
-      "lat": 48.847526,
-      "lon": 2.397075
+      "lat": 48.8696,
+      "lon": 2.3672
     },
     "Porte de Vincennes": {
-      "lat": 48.847252,
-      "lon": 2.413122
+      "lat": 48.847756,
+      "lon": 2.411325
     },
     "Saint-Mandé": {
-      "lat": 48.845915,
-      "lon": 2.399919
+      "lat": 48.844966,
+      "lon": 2.401238
     },
     "Bérault": {
-      "lat": null,
-      "lon": null
+      "lat": 48.873267,
+      "lon": 2.393721
     },
     "Château de Vincennes": {
-      "lat": 48.84703,
-      "lon": 2.406857
+      "lat": 48.844318,
+      "lon": 2.44054
     },
     "Porte Dauphine": {
-      "lat": 48.86963,
-      "lon": 2.270394
+      "lat": 48.871739,
+      "lon": 2.277089
     },
     "Victor Hugo": {
-      "lat": 48.869315,
-      "lon": 2.284912
+      "lat": 48.869828,
+      "lon": 2.285884
     },
     "Ternes": {
-      "lat": 48.881115,
-      "lon": 2.288716
+      "lat": 48.87982,
+      "lon": 2.29265
     },
     "Courcelles": {
-      "lat": 48.88435,
-      "lon": 2.297721
+      "lat": 48.879265,
+      "lon": 2.303294
     },
     "Monceau": {
-      "lat": 48.883167,
-      "lon": 2.299842
+      "lat": 48.880612,
+      "lon": 2.309402
     },
     "Villiers": {
-      "lat": 48.883729,
-      "lon": 2.303768
+      "lat": 48.881073,
+      "lon": 2.315815
     },
     "Rome": {
-      "lat": 48.885031,
-      "lon": 2.317661
+      "lat": 48.88242,
+      "lon": 2.320773
     },
     "Place de Clichy": {
-      "lat": 48.88372,
-      "lon": 2.326803
+      "lat": 48.883565,
+      "lon": 2.327096
     },
     "Blanche": {
-      "lat": 48.880377,
-      "lon": 2.331328
+      "lat": 48.883968,
+      "lon": 2.332722
     },
     "Pigalle": {
-      "lat": 48.880162,
-      "lon": 2.334007
+      "lat": 48.882056,
+      "lon": 2.338179
     },
     "Anvers": {
-      "lat": 48.882155,
-      "lon": 2.344508
+      "lat": 48.88223,
+      "lon": 2.344786
     },
     "Barbès - Rochechouart": {
-      "lat": 48.879832,
-      "lon": 2.345982
+      "lat": 48.883597,
+      "lon": 2.350646
     },
     "La Chapelle": {
-      "lat": 47.400134,
-      "lon": -0.375559
+      "lat": 48.883597,
+      "lon": 2.350646
     },
     "Stalingrad": {
-      "lat": 48.883205,
-      "lon": 2.370108
+      "lat": 48.884211,
+      "lon": 2.369216
     },
     "Jaurès": {
-      "lat": 48.886138,
-      "lon": 2.382807
+      "lat": 48.881587,
+      "lon": 2.369917
     },
     "Colonel Fabien": {
-      "lat": 48.878168,
-      "lon": 2.370803
+      "lat": 48.877803,
+      "lon": 2.370813
     },
     "Belleville": {
-      "lat": 48.875541,
-      "lon": 2.391897
+      "lat": 48.872158,
+      "lon": 2.376447
     },
     "Couronnes": {
-      "lat": 48.870359,
-      "lon": 2.385413
+      "lat": 48.869319,
+      "lon": 2.380531
     },
     "Ménilmontant": {
-      "lat": 48.868957,
-      "lon": 2.391318
+      "lat": 48.8624,
+      "lon": 2.387378
     },
     "Père Lachaise": {
-      "lat": 48.864045,
-      "lon": 2.397757
+      "lat": 48.862934,
+      "lon": 2.386179
     },
     "Philippe Auguste": {
-      "lat": 48.853846,
-      "lon": 2.3925
+      "lat": 48.857999,
+      "lon": 2.390461
     },
     "Alexandre Dumas": {
-      "lat": 48.853542,
-      "lon": 2.392318
+      "lat": 48.856289,
+      "lon": 2.394808
     },
     "Avron": {
-      "lat": 48.852471,
-      "lon": 2.404497
+      "lat": 48.851708,
+      "lon": 2.398384
     },
     "Pont de Levallois - Bécon": {
-      "lat": null,
-      "lon": null
+      "lat": 48.856373,
+      "lon": 2.35253
     },
     "Anatole France": {
-      "lat": 48.861926,
-      "lon": 2.321138
+      "lat": 48.875794,
+      "lon": 2.291916
     },
     "Louise Michel": {
-      "lat": 43.292104,
-      "lon": -0.382909
+      "lat": 48.890321,
+      "lon": 2.38217
     },
     "Porte de Champerret": {
-      "lat": 48.885919,
-      "lon": 2.290526
+      "lat": 48.885652,
+      "lon": 2.292112
     },
     "Pereire": {
-      "lat": 48.884439,
-      "lon": 2.29672
+      "lat": 48.88498,
+      "lon": 2.297722
     },
     "Wagram": {
-      "lat": 48.887287,
-      "lon": 2.304743
+      "lat": 48.88376,
+      "lon": 2.30463
     },
     "Malesherbes": {
-      "lat": 48.880995,
-      "lon": 2.339225
+      "lat": 48.88294,
+      "lon": 2.30953
     },
     "Europe": {
-      "lat": 48.879003,
-      "lon": 2.323384
+      "lat": 48.878766,
+      "lon": 2.322181
     },
     "Saint-Lazare": {
-      "lat": 48.876721,
-      "lon": 2.332669
+      "lat": 48.874959,
+      "lon": 2.324488
     },
     "Havre - Caumartin": {
-      "lat": 48.872959,
-      "lon": 2.328261
+      "lat": 48.87348,
+      "lon": 2.328106
     },
     "Opéra": {
-      "lat": 48.870932,
-      "lon": 2.332168
+      "lat": 48.87144,
+      "lon": 2.33105
     },
     "Quatre-Septembre": {
-      "lat": 48.869682,
-      "lon": 2.33638
+      "lat": 48.869657,
+      "lon": 2.336334
     },
     "Bourse": {
-      "lat": 48.869498,
-      "lon": 2.339625
+      "lat": 48.8655,
+      "lon": 2.3426
     },
     "Sentier": {
-      "lat": 48.916289,
-      "lon": 2.251659
+      "lat": 48.869366,
+      "lon": 2.345937
     },
     "Réaumur - Sébastopol": {
-      "lat": 48.865286,
-      "lon": 2.35642
+      "lat": 48.86627,
+      "lon": 2.351885
     },
     "Arts et Métiers": {
-      "lat": 47.308219,
-      "lon": 5.021266
+      "lat": 48.865507,
+      "lon": 2.356738
     },
     "Temple": {
-      "lat": 48.864203,
-      "lon": 2.359196
+      "lat": 48.866838,
+      "lon": 2.361658
     },
     "République": {
-      "lat": 48.864924,
-      "lon": 2.376252
+      "lat": 48.867997,
+      "lon": 2.364778
     },
     "Parmentier": {
-      "lat": 48.864353,
-      "lon": 2.375397
+      "lat": 48.865173,
+      "lon": 2.374676
     },
     "Rue Saint-Maur": {
-      "lat": 48.864419,
-      "lon": 2.378024
+      "lat": 48.8649,
+      "lon": 2.3794
     },
     "Gambetta": {
-      "lat": 48.864903,
-      "lon": 2.398464
+      "lat": 48.864835,
+      "lon": 2.397509
     },
     "Porte de Bagnolet": {
-      "lat": 48.864359,
-      "lon": 2.408828
+      "lat": 48.864457,
+      "lon": 2.406751
     },
     "Gallieni": {
-      "lat": 48.829826,
-      "lon": 2.267549
+      "lat": 48.829701,
+      "lon": 2.267406
     },
     "Porte de Clignancourt": {
-      "lat": 48.899093,
-      "lon": 2.344437
+      "lat": 48.897526,
+      "lon": 2.344624
     },
     "Simplon": {
-      "lat": 48.894118,
-      "lon": 2.349196
+      "lat": 48.893791,
+      "lon": 2.347667
     },
     "Marcadet - Poissonniers": {
-      "lat": 48.892172,
-      "lon": 2.352191
+      "lat": 48.890924,
+      "lon": 2.349777
     },
     "Château Rouge": {
-      "lat": 48.887397,
-      "lon": 2.349884
+      "lat": 48.887079,
+      "lon": 2.349366
     },
     "Gare du Nord": {
-      "lat": 47.642948,
-      "lon": 0.289487
+      "lat": 48.87951,
+      "lon": 2.35677
     },
     "Gare de l'Est": {
-      "lat": 47.642948,
-      "lon": 0.289487
+      "lat": 48.876783,
+      "lon": 2.358446
     },
     "Château d'Eau": {
-      "lat": 48.870946,
-      "lon": 2.35855
+      "lat": 48.872488,
+      "lon": 2.355872
     },
     "Strasbourg - Saint-Denis": {
-      "lat": 48.565695,
-      "lon": 7.751489
+      "lat": 48.869608,
+      "lon": 2.354561
     },
     "Étienne Marcel": {
-      "lat": 48.865311,
-      "lon": 2.343436
+      "lat": 48.8637,
+      "lon": 2.34898
     },
     "Les Halles": {
-      "lat": 48.859801,
-      "lon": 2.346648
+      "lat": 48.862527,
+      "lon": 2.346008
     },
     "Cité": {
-      "lat": 48.884546,
-      "lon": 2.332104
+      "lat": 48.85512,
+      "lon": 2.347445
     },
     "Saint-Michel": {
-      "lat": 48.85322,
-      "lon": 2.345926
+      "lat": 48.85366,
+      "lon": 2.34394
     },
     "Odéon": {
-      "lat": 48.850913,
-      "lon": 2.338698
+      "lat": 48.851948,
+      "lon": 2.340619
     },
     "Saint-Germain-des-Prés": {
-      "lat": 47.642948,
-      "lon": 0.289487
+      "lat": 48.867289,
+      "lon": 2.3475
     },
     "Saint-Sulpice": {
-      "lat": 48.851382,
-      "lon": 2.336213
+      "lat": 48.851139,
+      "lon": 2.330954
     },
     "Saint-Placide": {
-      "lat": 48.848543,
-      "lon": 2.325564
+      "lat": 48.846842,
+      "lon": 2.326923
     },
     "Montparnasse - Bienvenüe": {
-      "lat": 48.842192,
-      "lon": 2.325672
+      "lat": 48.843869,
+      "lon": 2.324408
     },
     "Vavin": {
-      "lat": 48.843931,
-      "lon": 2.330353
+      "lat": 48.842272,
+      "lon": 2.329005
     },
     "Raspail": {
-      "lat": 48.838398,
-      "lon": 2.330927
+      "lat": 48.845024,
+      "lon": 2.328443
     },
     "Denfert-Rochereau": {
-      "lat": 48.834243,
-      "lon": 2.331358
+      "lat": 48.833979,
+      "lon": 2.331923
     },
     "Mouton-Duvernet": {
-      "lat": 48.832022,
-      "lon": 2.327503
+      "lat": 48.831333,
+      "lon": 2.329881
     },
     "Alésia": {
-      "lat": 48.828565,
-      "lon": 2.325004
+      "lat": 48.830729,
+      "lon": 2.318626
     },
     "Porte d'Orléans": {
-      "lat": 48.820915,
-      "lon": 2.325529
+      "lat": 48.822418,
+      "lon": 2.325568
     },
     "Mairie de Montrouge": {
-      "lat": 48.884523,
-      "lon": 2.340375
+      "lat": 48.820621,
+      "lon": 2.342939
     },
     "Barbara": {
-      "lat": null,
-      "lon": null
+      "lat": 48.873267,
+      "lon": 2.393721
     },
     "Bagneux - Lucie Aubrac": {
-      "lat": 48.802757,
-      "lon": 2.31758
+      "lat": 48.856373,
+      "lon": 2.35253
     },
     "Bobigny - Pablo Picasso": {
-      "lat": 48.907586,
-      "lon": 2.448952
+      "lat": 48.906863,
+      "lon": 2.449368
     },
     "Bobigny - Pantin - Raymond Queneau": {
-      "lat": null,
-      "lon": null
+      "lat": 48.895789,
+      "lon": 2.42618
     },
     "Église de Pantin": {
-      "lat": 48.889372,
-      "lon": 2.396375
+      "lat": 48.871335,
+      "lon": 2.388213
     },
     "Hoche": {
-      "lat": 48.876142,
-      "lon": 2.300889
+      "lat": 48.873267,
+      "lon": 2.393721
     },
     "Porte de Pantin": {
-      "lat": 48.889372,
-      "lon": 2.396375
+      "lat": 48.888533,
+      "lon": 2.392061
     },
     "Ourcq": {
-      "lat": 48.892024,
-      "lon": 2.37953
+      "lat": 48.887194,
+      "lon": 2.386618
     },
     "Laumière": {
-      "lat": 48.883881,
-      "lon": 2.380483
+      "lat": 48.883878,
+      "lon": 2.380522
     },
     "Jacques Bonsergent": {
-      "lat": 48.871065,
-      "lon": 2.361056
+      "lat": 48.870674,
+      "lon": 2.361232
     },
     "Oberkampf": {
-      "lat": 48.865037,
-      "lon": 2.37493
+      "lat": 48.864777,
+      "lon": 2.368156
     },
     "Richard-Lenoir": {
-      "lat": 48.855757,
-      "lon": 2.381633
+      "lat": 48.856086,
+      "lon": 2.370928
     },
     "Bréguet - Sabin": {
-      "lat": 48.857581,
-      "lon": 2.373947
+      "lat": 48.856086,
+      "lon": 2.370928
     },
     "Quai de la Rapée": {
-      "lat": 48.843379,
-      "lon": 2.37117
+      "lat": 48.84649,
+      "lon": 2.36599
     },
     "Gare d'Austerlitz": {
-      "lat": 48.847049,
-      "lon": 2.370678
+      "lat": 48.84227,
+      "lon": 2.364366
     },
     "Saint-Marcel": {
-      "lat": 14.793916,
-      "lon": -61.009266
+      "lat": 48.83847,
+      "lon": 2.360845
     },
     "Campo-Formio": {
-      "lat": 48.83452,
-      "lon": 2.359964
+      "lat": 48.835577,
+      "lon": 2.358751
     },
     "Place d'Italie": {
-      "lat": 48.830578,
-      "lon": 2.355183
+      "lat": 48.830915,
+      "lon": 2.356102
     },
     "Kléber": {
-      "lat": 48.868147,
-      "lon": 2.290931
+      "lat": 48.863572,
+      "lon": 2.287349
     },
     "Boissière": {
-      "lat": 48.867228,
-      "lon": 2.289345
+      "lat": 48.8669,
+      "lon": 2.2902
     },
     "Trocadéro": {
-      "lat": 48.862525,
-      "lon": 2.282341
+      "lat": 48.863572,
+      "lon": 2.287349
     },
     "Passy": {
-      "lat": 48.858072,
-      "lon": 2.279588
+      "lat": 48.857553,
+      "lon": 2.2858
     },
     "Bir-Hakeim": {
-      "lat": 48.854791,
-      "lon": 2.288491
+      "lat": 48.854032,
+      "lon": 2.289616
     },
     "Dupleix": {
-      "lat": 48.851482,
-      "lon": 2.297194
+      "lat": 48.850604,
+      "lon": 2.293793
     },
     "La Motte-Picquet - Grenelle": {
-      "lat": 48.850168,
-      "lon": 2.299282
+      "lat": 48.849678,
+      "lon": 2.2985
     },
     "Cambronne": {
-      "lat": 48.843894,
-      "lon": 2.302505
+      "lat": 48.847741,
+      "lon": 2.301605
     },
     "Sèvres - Lecourbe": {
-      "lat": 48.840467,
-      "lon": 2.295982
+      "lat": 48.873267,
+      "lon": 2.393721
     },
     "Pasteur": {
-      "lat": 48.86215,
-      "lon": 2.375382
+      "lat": 48.862181,
+      "lon": 2.375452
     },
     "Edgar Quinet": {
-      "lat": 48.840746,
-      "lon": 2.326668
+      "lat": 48.840489,
+      "lon": 2.326627
     },
     "Saint-Jacques": {
-      "lat": 48.845494,
-      "lon": 2.343017
+      "lat": 48.8331,
+      "lon": 2.33657
     },
     "Glacière": {
-      "lat": 48.831667,
-      "lon": 2.344214
+      "lat": 48.831375,
+      "lon": 2.343636
     },
     "Corvisart": {
-      "lat": 48.831952,
-      "lon": 2.347523
+      "lat": 48.830041,
+      "lon": 2.350484
     },
     "Nationale": {
-      "lat": 48.827524,
-      "lon": 2.366014
+      "lat": 48.833307,
+      "lon": 2.362417
     },
     "Chevaleret": {
-      "lat": 48.830103,
-      "lon": 2.373866
+      "lat": 48.835173,
+      "lon": 2.368056
     },
     "Quai de la Gare": {
-      "lat": 48.836736,
-      "lon": 2.374187
+      "lat": 48.836846,
+      "lon": 2.373003
     },
     "Bercy": {
-      "lat": 48.84187,
-      "lon": 2.376938
+      "lat": 48.8402,
+      "lon": 2.3797
     },
     "Dugommier": {
-      "lat": 48.839766,
-      "lon": 2.391273
+      "lat": 48.839147,
+      "lon": 2.389542
     },
     "Daumesnil": {
-      "lat": 48.837211,
-      "lon": 2.401061
+      "lat": 48.839336,
+      "lon": 2.396162
     },
     "Bel-Air": {
-      "lat": 48.851714,
-      "lon": 2.373001
+      "lat": 48.841464,
+      "lon": 2.400622
     },
     "Picpus": {
-      "lat": 48.841661,
-      "lon": 2.398288
+      "lat": 48.844966,
+      "lon": 2.401238
     },
     "La Courneuve - 8 Mai 1945": {
-      "lat": 48.920797,
-      "lon": 2.41064
+      "lat": 48.92668,
+      "lon": 2.389568
     },
     "Fort d'Aubervilliers": {
-      "lat": 48.891871,
-      "lon": 2.369838
+      "lat": 48.888778,
+      "lon": 2.367666
     },
     "Aubervilliers - Pantin - Quatre Chemins": {
-      "lat": null,
-      "lon": null
+      "lat": 48.856373,
+      "lon": 2.35253
     },
     "Porte de la Villette": {
-      "lat": 48.899447,
-      "lon": 2.387856
+      "lat": 48.8974,
+      "lon": 2.3863
     },
     "Corentin Cariou": {
-      "lat": 48.896405,
-      "lon": 2.38425
+      "lat": 48.894647,
+      "lon": 2.382321
     },
     "Crimée": {
-      "lat": 48.886284,
-      "lon": 2.381914
+      "lat": 48.890943,
+      "lon": 2.376813
     },
     "Riquet": {
-      "lat": 48.888886,
-      "lon": 2.372803
+      "lat": 48.888044,
+      "lon": 2.373887
     },
     "Louis Blanc": {
-      "lat": 48.881277,
-      "lon": 2.364651
+      "lat": 48.881242,
+      "lon": 2.364356
     },
     "Château-Landon": {
-      "lat": 48.881876,
-      "lon": 2.363271
+      "lat": 48.878389,
+      "lon": 2.362117
     },
     "Poissonnière": {
-      "lat": 48.869466,
-      "lon": 2.347803
+      "lat": 48.87708,
+      "lon": 2.348794
     },
     "Cadet": {
-      "lat": 48.875295,
-      "lon": 2.343362
+      "lat": 48.875873,
+      "lon": 2.343859
     },
     "Le Peletier": {
-      "lat": 48.873828,
-      "lon": 2.339089
+      "lat": 48.874918,
+      "lon": 2.339879
     },
     "Chaussée d'Antin - La Fayette": {
-      "lat": 48.873658,
-      "lon": 2.333005
+      "lat": 48.872902,
+      "lon": 2.334006
     },
     "Pyramides": {
-      "lat": 48.8652,
-      "lon": 2.33312
+      "lat": 48.863889,
+      "lon": 2.332184
     },
     "Pont Neuf": {
-      "lat": 47.680348,
-      "lon": 0.432495
+      "lat": 48.858546,
+      "lon": 2.341777
     },
     "Pont Marie": {
-      "lat": 14.793916,
-      "lon": -61.009266
+      "lat": 48.852883,
+      "lon": 2.357441
     },
     "Sully - Morland": {
-      "lat": 48.847012,
-      "lon": 2.365942
+      "lat": 48.851271,
+      "lon": 2.361853
     },
     "Jussieu": {
-      "lat": 48.846579,
-      "lon": 2.354695
+      "lat": 48.84599,
+      "lon": 2.35458
     },
     "Place Monge": {
-      "lat": 48.842951,
-      "lon": 2.351785
+      "lat": 48.84347,
+      "lon": 2.35243
     },
     "Censier - Daubenton": {
-      "lat": 48.840898,
-      "lon": 2.35239
+      "lat": 48.840225,
+      "lon": 2.351627
     },
     "Les Gobelins": {
-      "lat": 48.835849,
-      "lon": 2.351123
+      "lat": 48.8359,
+      "lon": 2.3525
     },
     "Tolbiac": {
-      "lat": 48.82628,
-      "lon": 2.359471
+      "lat": 48.826091,
+      "lon": 2.357531
     },
     "Maison Blanche": {
-      "lat": 48.825945,
-      "lon": 2.358389
+      "lat": 48.821687,
+      "lon": 2.358511
     },
     "Le Kremlin-Bicêtre": {
-      "lat": 48.815425,
-      "lon": 2.362953
+      "lat": 48.809898,
+      "lon": 2.362087
     },
     "Villejuif - Léo Lagrange": {
-      "lat": null,
-      "lon": null
+      "lat": 48.804374,
+      "lon": 2.363994
     },
     "Villejuif - Paul Vaillant-Couturier": {
-      "lat": 48.795415,
-      "lon": 2.367319
+      "lat": 48.7965,
+      "lon": 2.3681
     },
     "Villejuif - Louis Aragon": {
-      "lat": 48.788576,
-      "lon": 2.371289
+      "lat": 48.787573,
+      "lon": 2.367717
     },
     "Balard": {
-      "lat": 48.84134,
-      "lon": 2.277635
+      "lat": 48.862329,
+      "lon": 2.344779
     },
     "Lourmel": {
-      "lat": 48.84351,
-      "lon": 2.28639
+      "lat": 48.838786,
+      "lon": 2.282036
     },
     "Boucicaut": {
-      "lat": 48.842343,
-      "lon": 2.2863
+      "lat": 48.841235,
+      "lon": 2.287943
     },
     "Félix Faure": {
-      "lat": 48.839153,
-      "lon": 2.284808
+      "lat": 48.842708,
+      "lon": 2.291671
     },
     "Commerce": {
-      "lat": 48.846349,
-      "lon": 2.295377
+      "lat": 48.845545,
+      "lon": 2.294312
     },
     "École Militaire": {
-      "lat": 48.854375,
-      "lon": 2.305786
+      "lat": 48.854598,
+      "lon": 2.306171
     },
     "La Tour-Maubourg": {
-      "lat": 48.85743,
-      "lon": 2.308587
+      "lat": 48.857669,
+      "lon": 2.310589
     },
     "Invalides": {
-      "lat": 48.864259,
-      "lon": 2.310218
+      "lat": 48.861092,
+      "lon": 2.314633
     },
     "Madeleine": {
-      "lat": 48.852905,
-      "lon": 2.408927
+      "lat": 48.870708,
+      "lon": 2.325903
     },
     "Richelieu - Drouot": {
-      "lat": 48.869286,
-      "lon": 2.338842
+      "lat": 48.872289,
+      "lon": 2.33863
     },
     "Grands Boulevards": {
-      "lat": null,
-      "lon": null
+      "lat": 48.871379,
+      "lon": 2.343177
     },
     "Bonne Nouvelle": {
-      "lat": 48.870707,
-      "lon": 2.35064
+      "lat": 48.870917,
+      "lon": 2.347142
     },
     "Filles du Calvaire": {
-      "lat": 48.862533,
-      "lon": 2.365626
+      "lat": 48.863077,
+      "lon": 2.366866
     },
     "Saint-Sébastien - Froissart": {
-      "lat": 48.861773,
-      "lon": 2.369783
+      "lat": 48.861116,
+      "lon": 2.367468
     },
     "Chemin Vert": {
-      "lat": 48.859945,
-      "lon": 2.377682
+      "lat": 48.857121,
+      "lon": 2.368313
     },
     "Ledru-Rollin": {
-      "lat": 48.848407,
-      "lon": 2.371825
+      "lat": 48.851487,
+      "lon": 2.375718
     },
     "Faidherbe - Chaligny": {
-      "lat": 48.847572,
-      "lon": 2.384045
+      "lat": 48.850265,
+      "lon": 2.384097
     },
     "Montgallet": {
-      "lat": 48.843571,
-      "lon": 2.387827
+      "lat": 48.844091,
+      "lon": 2.390576
     },
     "Michel Bizot": {
-      "lat": 48.835892,
-      "lon": 2.401982
+      "lat": 48.837314,
+      "lon": 2.402076
     },
     "Porte Dorée": {
-      "lat": 48.533455,
-      "lon": 4.141414
+      "lat": 48.835133,
+      "lon": 2.405633
     },
     "Porte de Charenton": {
-      "lat": 48.830104,
-      "lon": 2.400055
+      "lat": 48.832621,
+      "lon": 2.399459
     },
     "Liberté": {
-      "lat": 48.880738,
-      "lon": 2.392858
+      "lat": 48.879744,
+      "lon": 2.416298
     },
     "Charenton - Écoles": {
-      "lat": 48.823547,
-      "lon": 2.410496
+      "lat": 48.894168,
+      "lon": 2.38547
     },
     "École Vétérinaire de Maisons-Alfort": {
-      "lat": 48.797718,
-      "lon": 2.431448
+      "lat": 48.814915,
+      "lon": 2.422446
     },
     "Maisons-Alfort - Stade": {
-      "lat": 48.813278,
-      "lon": 2.44983
+      "lat": 48.801002,
+      "lon": 2.430694
     },
     "Maisons-Alfort - Les Juilliottes": {
-      "lat": 48.803168,
-      "lon": 2.443404
+      "lat": 48.803472,
+      "lon": 2.445671
     },
     "Créteil - L'Échat": {
-      "lat": 48.799601,
-      "lon": 2.448843
+      "lat": 48.873267,
+      "lon": 2.393721
     },
     "Créteil - Université": {
       "lat": 48.78909,
@@ -1678,404 +1678,404 @@
       "lon": 2.459428
     },
     "Pont de Sèvres": {
-      "lat": 47.642948,
-      "lon": 0.289487
+      "lat": 48.845662,
+      "lon": 2.312844
     },
     "Billancourt": {
-      "lat": 48.840686,
-      "lon": 2.240745
+      "lat": 48.83545,
+      "lon": 2.24128
     },
     "Marcel Sembat": {
-      "lat": 48.898695,
-      "lon": 2.337846
+      "lat": 48.898523,
+      "lon": 2.338003
     },
     "Porte de Saint-Cloud": {
-      "lat": 48.837864,
-      "lon": 2.257903
+      "lat": 48.838597,
+      "lon": 2.253542
     },
     "Exelmans": {
-      "lat": 48.842752,
-      "lon": 2.26192
+      "lat": 48.842555,
+      "lon": 2.259864
     },
     "Michel-Ange - Molitor": {
-      "lat": 48.843332,
-      "lon": 2.260503
+      "lat": 48.844847,
+      "lon": 2.261715
     },
     "Michel-Ange - Auteuil": {
-      "lat": 48.843332,
-      "lon": 2.260503
+      "lat": 48.847582,
+      "lon": 2.263962
     },
     "Jasmin": {
-      "lat": 48.85202,
-      "lon": 2.266723
+      "lat": 48.852462,
+      "lon": 2.268219
     },
     "Ranelagh": {
-      "lat": 48.854706,
-      "lon": 2.273532
+      "lat": 48.855502,
+      "lon": 2.269959
     },
     "La Muette": {
-      "lat": 48.858207,
-      "lon": 2.273473
+      "lat": 48.858065,
+      "lon": 2.274097
     },
     "Rue de la Pompe": {
-      "lat": 48.865289,
-      "lon": 2.279158
+      "lat": 48.866142,
+      "lon": 2.279822
     },
     "Iéna": {
-      "lat": 48.864745,
-      "lon": 2.293913
+      "lat": 48.864597,
+      "lon": 2.294218
     },
     "Alma - Marceau": {
-      "lat": 48.880647,
-      "lon": 2.391886
+      "lat": 48.864578,
+      "lon": 2.301042
     },
     "Saint-Philippe du Roule": {
-      "lat": 48.873108,
-      "lon": 2.308604
+      "lat": 48.872509,
+      "lon": 2.310107
     },
     "Miromesnil": {
-      "lat": 48.87617,
-      "lon": 2.315723
+      "lat": 48.873763,
+      "lon": 2.314678
     },
     "Saint-Augustin": {
-      "lat": 48.868858,
-      "lon": 2.335895
+      "lat": 48.874523,
+      "lon": 2.320523
     },
     "Saint-Ambroise": {
-      "lat": 48.86225,
-      "lon": 2.377448
+      "lat": 48.861284,
+      "lon": 2.373734
     },
     "Voltaire": {
-      "lat": 48.852436,
-      "lon": 2.391346
+      "lat": 48.857589,
+      "lon": 2.380143
     },
     "Charonne": {
-      "lat": 48.854257,
-      "lon": 2.383776
+      "lat": 48.854853,
+      "lon": 2.384448
     },
     "Rue des Boulets": {
-      "lat": 48.8508,
-      "lon": 2.390324
+      "lat": 48.852385,
+      "lon": 2.389451
     },
     "Buzenval": {
-      "lat": 48.852196,
-      "lon": 2.401088
+      "lat": 48.85171,
+      "lon": 2.401238
     },
     "Maraîchers": {
-      "lat": 48.852399,
-      "lon": 2.406633
+      "lat": 48.852779,
+      "lon": 2.405937
     },
     "Porte de Montreuil": {
-      "lat": 48.854799,
-      "lon": 2.413592
+      "lat": 48.853768,
+      "lon": 2.41184
     },
     "Robespierre": {
-      "lat": null,
-      "lon": null
+      "lat": 48.873267,
+      "lon": 2.393721
     },
     "Croix de Chavaux": {
-      "lat": null,
-      "lon": null
+      "lat": 48.85851,
+      "lon": 2.4367
     },
     "Mairie de Montreuil": {
-      "lat": 48.85051,
-      "lon": 2.391116
+      "lat": 46.582608,
+      "lon": 5.119064
     },
     "Boulogne - Pont de Saint-Cloud": {
-      "lat": 48.846896,
-      "lon": 2.226092
+      "lat": 48.848358,
+      "lon": 2.242725
     },
     "Boulogne - Jean Jaurès": {
-      "lat": 50.728836,
-      "lon": 1.633152
+      "lat": 48.881587,
+      "lon": 2.369917
     },
     "Chardon Lagache": {
-      "lat": 48.8436,
-      "lon": 2.265496
+      "lat": 48.845003,
+      "lon": 2.266584
     },
     "Mirabeau": {
-      "lat": 48.846325,
-      "lon": 2.276727
+      "lat": 48.847203,
+      "lon": 2.273417
     },
     "Javel - André Citroën": {
-      "lat": 48.843896,
-      "lon": 2.275399
+      "lat": 48.846222,
+      "lon": 2.278056
     },
     "Charles Michels": {
-      "lat": 48.846932,
-      "lon": 2.285605
+      "lat": 48.846604,
+      "lon": 2.285621
     },
     "Avenue Émile Zola": {
-      "lat": 48.846575,
-      "lon": 2.286627
+      "lat": 48.846604,
+      "lon": 2.285621
     },
     "Ségur": {
-      "lat": 48.85036,
-      "lon": 2.309761
+      "lat": 48.847268,
+      "lon": 2.307319
     },
     "Duroc": {
-      "lat": 48.847842,
-      "lon": 2.313895
+      "lat": 48.846637,
+      "lon": 2.316315
     },
     "Vaneau": {
-      "lat": 48.851393,
-      "lon": 2.319276
+      "lat": 48.8489,
+      "lon": 2.3211
     },
     "Sèvres - Babylone": {
-      "lat": 48.851637,
-      "lon": 2.320614
+      "lat": 48.850919,
+      "lon": 2.32613
     },
     "Mabillon": {
-      "lat": 48.852041,
-      "lon": 2.33523
+      "lat": 48.852956,
+      "lon": 2.335713
     },
     "Cluny - La Sorbonne": {
-      "lat": 48.849223,
-      "lon": 2.343248
+      "lat": 48.850765,
+      "lon": 2.345009
     },
     "Maubert - Mutualité": {
-      "lat": 48.850353,
-      "lon": 2.348983
+      "lat": 48.850056,
+      "lon": 2.34822
     },
     "Cardinal Lemoine": {
-      "lat": 48.847044,
-      "lon": 2.352475
+      "lat": 48.846521,
+      "lon": 2.351791
     },
     "Rambuteau": {
-      "lat": 48.861424,
-      "lon": 2.352985
+      "lat": 48.862245,
+      "lon": 2.349011
     },
     "Goncourt": {
-      "lat": 48.869509,
-      "lon": 2.372094
+      "lat": 48.870022,
+      "lon": 2.370859
     },
     "Pyrénées": {
-      "lat": null,
-      "lon": null
+      "lat": 48.873886,
+      "lon": 2.385189
     },
     "Jourdain": {
-      "lat": 48.87451,
-      "lon": 2.389469
+      "lat": 48.875083,
+      "lon": 2.389574
     },
     "Place des Fêtes": {
-      "lat": 48.877434,
-      "lon": 2.393089
+      "lat": 48.876766,
+      "lon": 2.394896
     },
     "Télégraphe": {
-      "lat": 48.873127,
-      "lon": 2.399316
+      "lat": 48.875563,
+      "lon": 2.398672
     },
     "Porte des Lilas": {
-      "lat": 48.877773,
-      "lon": 2.407867
+      "lat": 48.877231,
+      "lon": 2.406523
     },
     "Mairie des Lilas": {
-      "lat": 48.879479,
-      "lon": 2.396224
+      "lat": 48.877231,
+      "lon": 2.406523
     },
     "Front Populaire": {
-      "lat": 50.396451,
-      "lon": 2.835309
+      "lat": 48.873267,
+      "lon": 2.393721
     },
     "Porte de la Chapelle": {
-      "lat": 48.824227,
-      "lon": 2.319509
+      "lat": 48.89872,
+      "lon": 2.360101
     },
     "Marx Dormoy": {
-      "lat": 48.88751,
-      "lon": 2.359421
+      "lat": 48.89058,
+      "lon": 2.359696
     },
     "Jules Joffrin": {
-      "lat": 48.892531,
-      "lon": 2.34464
+      "lat": 48.892614,
+      "lon": 2.344739
     },
     "Lamarck - Caulaincourt": {
-      "lat": 48.888124,
-      "lon": 2.334036
+      "lat": 48.88971,
+      "lon": 2.338438
     },
     "Abbesses": {
-      "lat": 48.884943,
-      "lon": 2.337073
+      "lat": 48.881226,
+      "lon": 2.330766
     },
     "Saint-Georges": {
-      "lat": 47.642948,
-      "lon": 0.289487
+      "lat": 48.876241,
+      "lon": 2.337136
     },
     "Notre-Dame-de-Lorette": {
-      "lat": 48.878676,
-      "lon": 2.337091
+      "lat": 48.876189,
+      "lon": 2.338679
     },
     "Trinité - d'Estienne d'Orves": {
-      "lat": 48.876821,
-      "lon": 2.331525
+      "lat": 48.876408,
+      "lon": 2.333051
     },
     "Assemblée Nationale": {
-      "lat": 48.825277,
-      "lon": 2.367826
+      "lat": 48.860598,
+      "lon": 2.321522
     },
     "Solférino": {
-      "lat": 48.860033,
-      "lon": 2.323398
+      "lat": 48.858532,
+      "lon": 2.323076
     },
     "Rue du Bac": {
-      "lat": 48.855347,
-      "lon": 2.325294
+      "lat": 48.824546,
+      "lon": 2.417837
     },
     "Rennes": {
-      "lat": 48.113061,
-      "lon": -1.663804
+      "lat": 48.84821,
+      "lon": 2.32778
     },
     "Notre-Dame-des-Champs": {
-      "lat": 48.84344,
-      "lon": 2.331362
+      "lat": 48.845024,
+      "lon": 2.328443
     },
     "Falguière": {
-      "lat": 48.840712,
-      "lon": 2.313192
+      "lat": 48.84431,
+      "lon": 2.317555
     },
     "Volontaires": {
-      "lat": 48.841438,
-      "lon": 2.30801
+      "lat": 48.841554,
+      "lon": 2.307908
     },
     "Vaugirard": {
-      "lat": 48.840042,
-      "lon": 2.303681
+      "lat": 48.841263,
+      "lon": 2.320459
     },
     "Convention": {
-      "lat": 48.84035,
-      "lon": 2.289985
+      "lat": 48.837115,
+      "lon": 2.296403
     },
     "Porte de Versailles": {
-      "lat": 48.832371,
-      "lon": 2.287205
+      "lat": 48.832883,
+      "lon": 2.288167
     },
     "Corentin Celton": {
-      "lat": 48.827778,
-      "lon": 2.279308
+      "lat": 48.894647,
+      "lon": 2.382321
     },
     "Mairie d'Issy": {
-      "lat": 48.884523,
-      "lon": 2.340375
+      "lat": 48.896014,
+      "lon": 2.318685
     },
     "Saint-Denis - Université": {
-      "lat": 48.86086,
-      "lon": 2.315226
+      "lat": 48.226588,
+      "lon": 3.267407
     },
     "Basilique de Saint-Denis": {
-      "lat": null,
-      "lon": null
+      "lat": 48.936749,
+      "lon": 2.359522
     },
     "Saint-Denis - Porte de Paris": {
-      "lat": 48.92996,
-      "lon": 2.35717
+      "lat": 48.869078,
+      "lon": 2.354533
     },
     "Carrefour Pleyel": {
-      "lat": 48.750963,
-      "lon": -0.498288
+      "lat": 48.840074,
+      "lon": 2.391125
     },
     "Mairie de Saint-Ouen": {
-      "lat": 48.892017,
-      "lon": 2.327278
+      "lat": 48.834448,
+      "lon": 2.411861
     },
     "Garibaldi": {
-      "lat": 48.846448,
-      "lon": 2.306483
+      "lat": 48.846592,
+      "lon": 2.306511
     },
     "Porte de Saint-Ouen": {
-      "lat": 48.899086,
-      "lon": 2.329864
+      "lat": 48.897477,
+      "lon": 2.329069
     },
     "Guy Môquet": {
-      "lat": 48.892129,
-      "lon": 2.323169
+      "lat": 48.892892,
+      "lon": 2.327666
     },
     "La Fourche": {
-      "lat": null,
-      "lon": null
+      "lat": 48.887363,
+      "lon": 2.325427
     },
     "Liège": {
-      "lat": 48.879659,
-      "lon": 2.328099
+      "lat": 48.879714,
+      "lon": 2.326957
     },
     "Varenne": {
-      "lat": 48.898511,
-      "lon": 2.335864
+      "lat": 48.856618,
+      "lon": 2.314982
     },
     "Saint-François-Xavier": {
-      "lat": 44.77862,
-      "lon": -0.598183
+      "lat": 48.851285,
+      "lon": 2.314406
     },
     "Gaîté": {
-      "lat": 48.839791,
-      "lon": 2.323727
+      "lat": 48.838526,
+      "lon": 2.322354
     },
     "Pernety": {
-      "lat": 48.834015,
-      "lon": 2.317962
+      "lat": 48.834069,
+      "lon": 2.318393
     },
     "Plaisance": {
-      "lat": 48.83292,
-      "lon": 2.318989
+      "lat": 48.831741,
+      "lon": 2.313833
     },
     "Porte de Vanves": {
-      "lat": 48.82715,
-      "lon": 2.304565
+      "lat": 48.825927,
+      "lon": 2.304405
     },
     "Malakoff - Plateau de Vanves": {
-      "lat": 48.878129,
-      "lon": 2.383769
+      "lat": 48.822937,
+      "lon": 2.298195
     },
     "Malakoff - Rue Étienne Dolet": {
-      "lat": 44.112356,
-      "lon": 5.781428
+      "lat": 48.815358,
+      "lon": 2.298659
     },
     "Châtillon - Montrouge": {
-      "lat": 48.827606,
-      "lon": 2.323346
+      "lat": 48.827573,
+      "lon": 2.323287
     },
     "Saint-Denis Pleyel": {
-      "lat": 48.920065,
-      "lon": 2.345976
+      "lat": 48.86607,
+      "lon": 2.35348
     },
     "Porte de Clichy": {
-      "lat": 48.89542,
-      "lon": 2.311677
+      "lat": 48.894641,
+      "lon": 2.313659
     },
     "Pont Cardinet": {
-      "lat": 48.885405,
-      "lon": 2.31112
+      "lat": 48.887582,
+      "lon": 2.3135
     },
     "Cour Saint-Émilion": {
-      "lat": 48.833087,
-      "lon": 2.386499
+      "lat": 48.833557,
+      "lon": 2.38617
     },
     "Bibliothèque François Mitterrand": {
-      "lat": 48.859714,
-      "lon": 2.335762
+      "lat": 48.829924,
+      "lon": 2.376489
     },
     "Olympiades": {
-      "lat": null,
-      "lon": null
+      "lat": 48.826944,
+      "lon": 2.367034
     },
     "Villejuif - Institut Gustave Roussy": {
-      "lat": 49.193203,
-      "lon": 0.710566
+      "lat": 48.793239,
+      "lon": 2.349257
     },
     "Chevilly-Larue": {
-      "lat": 48.76533,
-      "lon": 2.365691
+      "lat": 48.758484,
+      "lon": 2.367375
     },
     "L'Haÿ-les-Roses": {
-      "lat": 48.776374,
-      "lon": 2.344031
+      "lat": 48.775326,
+      "lon": 2.354991
     },
     "Thiais": {
-      "lat": null,
-      "lon": null
+      "lat": 48.746845,
+      "lon": 2.372466
     },
     "Aéroport d'Orly": {
-      "lat": 48.73118,
-      "lon": 2.393586
+      "lat": 48.717727,
+      "lon": 2.389159
     }
   }
 }

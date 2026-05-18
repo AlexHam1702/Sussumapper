@@ -5,6 +5,9 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QH
                              QGroupBox, QMessageBox, QGridLayout, QCompleter)
 from PyQt5.QtGui import QFont, QColor
 from PyQt5.QtCore import Qt, QStringListModel
+import io
+import folium
+from PyQt5.QtWebEngineWidgets import QWebEngineView
 from main import TransportNetwork, list_available_cities
 
 
@@ -19,7 +22,76 @@ class RoutePlannerGUI(QMainWindow):
         self.current_city = None
         
         self.init_ui()
-    
+
+    def reset_map(self, lat=48.8566, lon=2.3522):
+        """Affiche une carte par défaut centrée."""
+        m = folium.Map(location=[lat, lon], zoom_start=12, tiles="CartoDB positron")
+        # On utilise render() pour générer directement le code HTML en texte
+        html_content = m.get_root().render()
+        self.map_view.setHtml(html_content)
+
+    def draw_route_on_map(self, path):
+        """Dessine le trajet sur la carte de manière propre et centrée."""
+        coords = []
+        station_names = [] # On garde les noms pour les afficher sur la carte
+        
+        for step in path:
+            station_name = step[0] if isinstance(step, tuple) else step 
+            if station_name in self.network.station_coords:
+                coords.append(self.network.station_coords[station_name])
+                station_names.append(station_name)
+                
+        if not coords:
+            return
+
+        # On crée la carte (CartoDB positron donne ce look gris/épuré moderne)
+        m = folium.Map(tiles="CartoDB positron")
+        
+        # 1. Dessiner la ligne épaisse du trajet
+        folium.PolyLine(
+            coords, 
+            color="#14C371", # Un beau vert Citymapper
+            weight=5, 
+            opacity=0.9
+        ).add_to(m)
+        
+        # 2. Ajouter les marqueurs pour TOUTES les stations
+        for i, (coord, name) in enumerate(zip(coords, station_names)):
+            if i == 0:
+                # Gros marqueur Vert pour le Départ
+                folium.Marker(
+                    coord, 
+                    popup=f"Départ: {name}", 
+                    icon=folium.Icon(color="green", icon="play")
+                ).add_to(m)
+            elif i == len(coords) - 1:
+                # Gros marqueur Rouge pour l'Arrivée
+                folium.Marker(
+                    coord, 
+                    popup=f"Arrivée: {name}", 
+                    icon=folium.Icon(color="red", icon="flag")
+                ).add_to(m)
+            else:
+                # Petits points blancs entourés de vert pour les arrêts intermédiaires
+                folium.CircleMarker(
+                    location=coord,
+                    radius=5,
+                    popup=name,
+                    color="#14C371",
+                    weight=2,
+                    fill=True,
+                    fill_color="white",
+                    fill_opacity=1
+                ).add_to(m)
+        
+        # 3. LA MAGIE : Demander à la carte de dézoomer/zoomer exactement sur le trajet
+        if len(coords) > 1:
+            m.fit_bounds(m.get_bounds())
+        
+        # 4. Afficher
+        html_content = m.get_root().render()
+        self.map_view.setHtml(html_content)
+        
     def init_ui(self):
         """Initialize the user interface."""
         self.setWindowTitle("Metropolitan Route Planner")
@@ -189,6 +261,16 @@ class RoutePlannerGUI(QMainWindow):
         
         # Initialize city list
         self.refresh_cities()
+
+        # Création du widget de la carte
+        self.map_view = QWebEngineView()
+        self.map_view.setMinimumWidth(600) # Pour être sûr qu'elle a de la place
+        
+        # --- ASSEMBLAGE ---
+        main_layout.addWidget(self.map_view, 2) # Carte (2/3 de l'espace)
+        
+        # Afficher une carte vide par défaut au lancement
+        self.reset_map()
     
     def refresh_cities(self):
         """Refresh the list of available cities."""
@@ -267,6 +349,9 @@ class RoutePlannerGUI(QMainWindow):
         if not route or len(route) < 2:
             result_text = "❌ No route found or invalid stations.\nPlease check your spelling."
             self.update_info("No route found")
+            
+            # (Optionnel) Réinitialiser la carte s'il n'y a pas de trajet
+            self.reset_map()
         else:
             # Format route manually for GUI display
             start_station = route[0][0]
@@ -300,7 +385,11 @@ class RoutePlannerGUI(QMainWindow):
             result_text += "=" * 50
             
             self.update_info(f"Route found: {mins}m {secs}s")
-        
+            
+            # === NOUVEAU : C'EST ICI QU'ON DESSINE LA CARTE ! ===
+            # On passe l'itinéraire complet à la fonction que nous avons créée plus tôt
+            self.draw_route_on_map(route)
+            
         self.result_text.setText(result_text)
     
     def clear_search(self):

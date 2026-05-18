@@ -506,476 +506,476 @@
   "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne.",
   "stations_info": {
     "Le Haillan Rostand": {
-      "lat": 44.846766,
-      "lon": -0.593285
+      "lat": 44.87167,
+      "lon": -0.67694
     },
     "Les Pins": {
-      "lat": 44.834528,
-      "lon": -0.603518
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Hôpital Haut-Lévêque": {
-      "lat": 44.835388,
-      "lon": -0.577679
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Alfred de Vigny": {
-      "lat": 44.845881,
-      "lon": -0.624513
+      "lat": 44.846356,
+      "lon": -0.624804
     },
     "François Mitterrand": {
-      "lat": 43.184803,
-      "lon": -0.621763
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Mérignac Centre": {
-      "lat": 44.8387,
-      "lon": -0.623383
+      "lat": 48.0987,
+      "lon": 2.52687
     },
     "Pin Galant": {
-      "lat": 44.834528,
-      "lon": -0.603518
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Quatre Chemins": {
-      "lat": null,
-      "lon": null
+      "lat": 43.534903,
+      "lon": 3.758202
     },
     "Lycée de Mérignac": {
-      "lat": 44.84057,
-      "lon": -0.571042
+      "lat": 44.8425,
+      "lon": -0.645
     },
     "Fontaine d'Arlac": {
-      "lat": 44.825226,
+      "lat": 44.825292,
       "lon": -0.614414
     },
     "Peychotte": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Saint-Augustin": {
-      "lat": 44.835565,
-      "lon": -0.602186
+      "lat": 44.833874,
+      "lon": -0.59877
     },
     "Stade Chaban-Delmas": {
-      "lat": 44.858097,
-      "lon": -0.551683
+      "lat": 44.877246,
+      "lon": -0.576972
     },
     "Hôtel de Ville - Mériadeck": {
-      "lat": 44.838345,
-      "lon": -0.57889
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Palais de Justice": {
-      "lat": 48.96058,
-      "lon": 2.883376
+      "lat": 44.83523,
+      "lon": -0.579371
     },
     "Musée d'Aquitaine": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Victoire": {
-      "lat": 44.83094,
-      "lon": -0.57279
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Sainte-Croix": {
-      "lat": 48.49829,
-      "lon": -3.962247
+      "lat": 44.820768,
+      "lon": -0.598484
     },
     "Porte de Bourgogne": {
-      "lat": 44.063601,
-      "lon": 0.427076
+      "lat": 47.498669,
+      "lon": 6.833382
     },
     "Jardin Botanique": {
-      "lat": 44.84948,
-      "lon": -0.559057
+      "lat": 44.845937,
+      "lon": -0.562347
     },
     "Quinconces": {
-      "lat": 44.845315,
-      "lon": -0.575654
+      "lat": 44.845269,
+      "lon": -0.57597
     },
     "CAPC Musée d'Art Contemporain": {
-      "lat": null,
-      "lon": null
+      "lat": 44.848244,
+      "lon": -0.572119
     },
     "Chartrons": {
-      "lat": 44.855164,
-      "lon": -0.563096
+      "lat": 44.86054,
+      "lon": -0.57263
     },
     "Cours du Médoc": {
-      "lat": 44.859552,
-      "lon": -0.568371
+      "lat": 44.860587,
+      "lon": -0.569568
     },
     "Émile Counord": {
-      "lat": 44.858917,
-      "lon": -0.574945
+      "lat": 44.857811,
+      "lon": -0.574762
     },
     "Brandenburg": {
-      "lat": 44.87588,
-      "lon": -0.548812
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Ravezies": {
-      "lat": 44.865643,
-      "lon": -0.575115
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "New York": {
-      "lat": 44.869736,
-      "lon": -0.54963
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Les Aubiers": {
-      "lat": 44.872971,
-      "lon": -0.572509
+      "lat": 46.95428,
+      "lon": -0.58928
     },
     "Lac": {
-      "lat": 44.879188,
-      "lon": -0.56901
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Parc des Expositions": {
-      "lat": 48.973534,
-      "lon": 2.514074
+      "lat": 44.893047,
+      "lon": -0.570668
     },
     "Bruges Centre": {
-      "lat": 44.853683,
-      "lon": -0.58181
+      "lat": 48.0987,
+      "lon": 2.52687
     },
     "Mairie de Bruges": {
-      "lat": 44.853683,
-      "lon": -0.58181
+      "lat": 44.88278,
+      "lon": -0.6125
     },
     "Buttinière": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Ginko": {
-      "lat": 48.49829,
-      "lon": -3.962247
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "La Gardette": {
-      "lat": null,
-      "lon": null
+      "lat": 44.879725,
+      "lon": -0.514489
     },
     "Blanquefort Centre": {
-      "lat": 44.852449,
-      "lon": -0.582274
+      "lat": 44.91056,
+      "lon": -0.6375
     },
     "Blanquefort": {
-      "lat": 44.852449,
-      "lon": -0.582274
+      "lat": 44.91056,
+      "lon": -0.6375
     },
     "Berges de la Garonne": {
-      "lat": null,
-      "lon": null
+      "lat": 44.844545,
+      "lon": -0.611297
     },
     "Jean Jaurès": {
-      "lat": 44.843079,
-      "lon": -0.570995
+      "lat": 44.818433,
+      "lon": -0.602941
     },
     "Grand Théâtre": {
-      "lat": null,
-      "lon": null
+      "lat": 44.84259,
+      "lon": -0.574188
     },
     "Gambetta": {
-      "lat": 44.850106,
-      "lon": -0.617619
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Saint-Bruno - Hôtel de Région": {
-      "lat": 44.837578,
-      "lon": -0.598036
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Bergonié": {
-      "lat": 44.814918,
-      "lon": -0.568943
+      "lat": 44.82371,
+      "lon": -0.5808
     },
     "Saint-Nicolas": {
-      "lat": 44.827167,
-      "lon": -0.573905
+      "lat": 44.827163,
+      "lon": -0.574205
     },
     "Tauzia": {
-      "lat": 44.829079,
-      "lon": -0.558662
+      "lat": 44.82105,
+      "lon": -0.60128
     },
     "Gare Saint-Jean": {
-      "lat": -21.321648,
-      "lon": 55.486135
+      "lat": 44.825077,
+      "lon": -0.556929
     },
     "Belcier": {
-      "lat": 44.825249,
-      "lon": -0.549838
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Carle Vernet": {
-      "lat": 44.818849,
-      "lon": -0.551591
+      "lat": 44.849041,
+      "lon": -0.578435
     },
     "Terres Neuves": {
-      "lat": 44.836438,
-      "lon": -0.549158
+      "lat": 44.836768,
+      "lon": -0.569467
     },
     "Milliaire": {
-      "lat": null,
-      "lon": null
+      "lat": 44.828877,
+      "lon": -0.576603
     },
     "Bougnard": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Pessac Centre": {
-      "lat": 44.828623,
-      "lon": -0.583437
+      "lat": 48.0987,
+      "lon": 2.52687
     },
     "France Alouette": {
-      "lat": 44.859478,
-      "lon": -0.502298
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Alouette": {
-      "lat": 44.859478,
-      "lon": -0.502298
+      "lat": 44.822679,
+      "lon": -0.60232
     },
     "Pessac Bersol": {
-      "lat": 44.828623,
-      "lon": -0.583437
+      "lat": 44.80583,
+      "lon": -0.63222
     },
     "Berges du Lac": {
-      "lat": 43.886772,
-      "lon": -1.318198
+      "lat": 44.87903,
+      "lon": -0.57076
     },
     "Judaïque": {
-      "lat": 44.840941,
-      "lon": -0.590012
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Les Hangars": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Quai des Chartrons": {
-      "lat": 44.85293,
-      "lon": -0.567209
+      "lat": 44.850603,
+      "lon": -0.569765
     },
     "Place de la Bourse": {
-      "lat": 44.841464,
-      "lon": -0.570493
+      "lat": 44.841911,
+      "lon": -0.570168
     },
     "Barrière de Bègles": {
-      "lat": 44.82149,
-      "lon": -0.566258
+      "lat": 44.813496,
+      "lon": -0.564686
     },
     "Stade Musard": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Terres Neuves - Montaigne-Montesquieu": {
-      "lat": 44.846795,
-      "lon": -0.618212
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Hôtel de Ville de Bègles": {
-      "lat": 44.838345,
-      "lon": -0.57889
+      "lat": 44.80778,
+      "lon": -0.54889
     },
     "Bègles Centre": {
-      "lat": 44.82149,
-      "lon": -0.566258
+      "lat": 48.0987,
+      "lon": 2.52687
     },
     "Calabet - Tortuga": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "La Houillère": {
-      "lat": null,
-      "lon": null
+      "lat": 47.70618,
+      "lon": 6.65183
     },
     "Villenave Pyrénées": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Pont de la Maye": {
-      "lat": null,
-      "lon": null
+      "lat": 44.78714,
+      "lon": -0.56905
     },
     "Villenave Centre": {
-      "lat": null,
-      "lon": null
+      "lat": 48.0987,
+      "lon": 2.52687
     },
     "Arts et Métiers": {
-      "lat": 47.308219,
-      "lon": 5.021266
+      "lat": 44.802856,
+      "lon": -0.602734
     },
     "Gare de Gazinet - Cestas": {
-      "lat": 44.835275,
-      "lon": -0.600155
+      "lat": 44.7444,
+      "lon": -0.6814
     },
     "Charles Martin": {
-      "lat": 44.873638,
-      "lon": -0.549697
+      "lat": 44.873851,
+      "lon": -0.550536
     },
     "Place Paul Doumer": {
-      "lat": 44.852015,
-      "lon": -0.57425
+      "lat": 44.851827,
+      "lon": -0.574492
     },
     "Barrière du Médoc": {
-      "lat": 44.838468,
-      "lon": -0.587234
+      "lat": 44.85387,
+      "lon": -0.593362
     },
     "Grand Parc": {
-      "lat": 44.851775,
-      "lon": -0.605953
+      "lat": 44.858282,
+      "lon": -0.584648
     },
     "Les Rives d'Arcins": {
-      "lat": 44.79449,
-      "lon": -0.535481
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Eysines Centre": {
-      "lat": 44.859843,
-      "lon": -0.610102
+      "lat": 48.0987,
+      "lon": 2.52687
     },
     "Cantinolle": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Le Taillan-Médoc": {
-      "lat": 44.902621,
-      "lon": -0.667916
+      "lat": 44.90444,
+      "lon": -0.66972
     },
     "Aéroport": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Cassiopée": {
-      "lat": 44.819684,
-      "lon": -0.476014
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Cap Métiers": {
-      "lat": 44.839447,
-      "lon": -0.552208
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Lycée Vaclav Havel": {
-      "lat": 44.858379,
-      "lon": -0.483479
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Hôpital Pellegrin": {
-      "lat": 44.835388,
-      "lon": -0.577679
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Hôpital Pellegrin - Tondu": {
-      "lat": 44.829953,
-      "lon": -0.586137
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Palais de Justice - Mériadeck": {
-      "lat": 48.96058,
-      "lon": 2.883376
+      "lat": 43.28657,
+      "lon": 5.37603
     },
     "Hôtel de Ville": {
-      "lat": 44.838345,
-      "lon": -0.57889
+      "lat": 44.837362,
+      "lon": -0.577136
     },
     "Les Hangars (Médoc)": {
-      "lat": 44.859552,
-      "lon": -0.568371
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Cenon Gare": {
-      "lat": 44.84421,
-      "lon": -0.548065
+      "lat": 44.85694,
+      "lon": -0.53278
     },
     "Cenon Pont Rouge": {
-      "lat": 44.84421,
-      "lon": -0.548065
+      "lat": 44.85694,
+      "lon": -0.53278
     },
     "Mairie de Cenon": {
-      "lat": 44.84421,
-      "lon": -0.548065
+      "lat": 44.85694,
+      "lon": -0.53278
     },
     "Lauriers": {
-      "lat": 44.841084,
-      "lon": -0.572329
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Gravières": {
-      "lat": null,
-      "lon": null
+      "lat": 44.4213,
+      "lon": 4.0922
     },
     "La Morlette": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Floirac Dravemont": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Stalingrad": {
-      "lat": 44.840489,
-      "lon": -0.559678
+      "lat": 44.840643,
+      "lon": -0.559129
     },
     "Jean Zay": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Saint-Aubin-de-Médoc - Villepreux": {
-      "lat": 44.914799,
-      "lon": -0.741432
+      "lat": 44.9118,
+      "lon": -0.7246
     },
     "Hippodrome": {
-      "lat": null,
-      "lon": null
+      "lat": 44.774625,
+      "lon": -0.644017
     },
     "Simone Veil": {
-      "lat": 44.864276,
-      "lon": -0.502266
+      "lat": 44.822816,
+      "lon": -0.537476
     },
     "Chambre de Commerce": {
-      "lat": 44.827033,
-      "lon": -0.552346
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Les Écus": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Place Ravezies - La Boucaïre": {
-      "lat": 44.865643,
-      "lon": -0.575115
+      "lat": 44.866165,
+      "lon": -0.575359
     },
     "Cenon Courbet": {
-      "lat": 44.84421,
-      "lon": -0.548065
+      "lat": 44.85694,
+      "lon": -0.53278
     },
     "Camille Godard - Jardin Public": {
-      "lat": 44.854787,
-      "lon": -0.580087
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Paul Doumer - Mûriers": {
-      "lat": 44.857077,
-      "lon": -0.616692
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Fondaudège - Mûriers": {
-      "lat": 44.848066,
-      "lon": -0.582274
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Catherine Cérilla": {
-      "lat": 44.836353,
-      "lon": -0.573597
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "La Belle Rose": {
-      "lat": 44.855263,
-      "lon": -0.570299
+      "lat": 44.840497,
+      "lon": -0.605375
     },
     "Calvet Centoujours": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     },
     "Pont de Bègles": {
-      "lat": 44.82149,
-      "lon": -0.566258
+      "lat": 44.80778,
+      "lon": -0.54889
     },
     "Gare de Bègles": {
-      "lat": 44.82149,
-      "lon": -0.566258
+      "lat": 44.80778,
+      "lon": -0.54889
     },
     "Saint-Michel": {
-      "lat": 44.843531,
-      "lon": -0.576902
+      "lat": 44.8364,
+      "lon": -0.5645
     },
     "Sainte-Catherine": {
-      "lat": 44.836353,
-      "lon": -0.573597
+      "lat": 44.839906,
+      "lon": -0.574785
     },
     "Place du Palais": {
-      "lat": 44.838387,
-      "lon": -0.569388
+      "lat": 44.838334,
+      "lon": -0.569454
     },
     "Navette Arena - Cébétang Concerts": {
-      "lat": null,
-      "lon": null
+      "lat": 44.837898,
+      "lon": -0.57938
     }
   }
 }

@@ -214,240 +214,240 @@
   "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne.",
   "stations_info": {
     "4 Cantons - Stade Pierre Mauroy": {
-      "lat": 50.634199,
-      "lon": 3.06727
+      "lat": 50.636926,
+      "lon": 3.065125
     },
     "Cité Scientifique - Professeur Gabillard": {
-      "lat": 50.628528,
-      "lon": 3.073845
+      "lat": 50.630458,
+      "lon": 3.07134
     },
     "Triolo": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.630458,
+      "lon": 3.07134
     },
     "Villeneuve-d'Ascq - Hôtel de Ville": {
-      "lat": 50.624234,
-      "lon": 3.147546
+      "lat": 50.62162,
+      "lon": 3.13168
     },
     "Pont de Bois": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.626956,
+      "lon": 3.122777
     },
     "Lezennes": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.61444,
+      "lon": 3.11333
     },
     "Hellemmes": {
-      "lat": 50.631171,
-      "lon": 3.108179
+      "lat": 50.62551,
+      "lon": 3.115748
     },
     "Mairie de Lille - Lille Grand Palais": {
-      "lat": 50.673139,
-      "lon": 3.070097
+      "lat": 50.629322,
+      "lon": 3.07515
     },
     "Fives": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.633172,
+      "lon": 3.09085
     },
     "Caulier": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.636659,
+      "lon": 3.087177
     },
     "Gare Lille Flandres": {
-      "lat": 50.63636,
-      "lon": 3.076893
+      "lat": 50.636585,
+      "lon": 3.069949
     },
     "Rihour": {
-      "lat": 50.635715,
-      "lon": 3.063123
+      "lat": 50.635073,
+      "lon": 3.062763
     },
     "République - Beaux-Arts": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.63166,
+      "lon": 3.060703
     },
     "Gambetta": {
-      "lat": 50.628584,
-      "lon": 3.05259
+      "lat": 50.626613,
+      "lon": 3.052612
     },
     "Wazemmes": {
-      "lat": 50.622865,
-      "lon": 3.060426
+      "lat": 50.623259,
+      "lon": 3.05156
     },
     "Porte des Postes": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.618739,
+      "lon": 3.050182
     },
     "CHR Oscar Lambret": {
-      "lat": 50.611301,
-      "lon": 3.037871
+      "lat": 50.614562,
+      "lon": 3.035548
     },
     "CHR B-Calmette": {
-      "lat": 50.631519,
-      "lon": 3.105132
+      "lat": 50.630458,
+      "lon": 3.07134
     },
     "Saint-Philibert": {
-      "lat": 46.214019,
-      "lon": 4.241836
+      "lat": 50.651989,
+      "lon": 2.974373
     },
     "Bourg": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.645676,
+      "lon": 2.985501
     },
     "Maison des Enfants": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.646149,
+      "lon": 2.994708
     },
     "Porte de Douai": {
-      "lat": 50.622,
-      "lon": 3.071263
+      "lat": 50.618296,
+      "lon": 3.072261
     },
     "Porte d'Arras": {
-      "lat": 50.627237,
-      "lon": 3.03584
+      "lat": 50.617578,
+      "lon": 3.062139
     },
     "Porte de Valenciennes": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.621175,
+      "lon": 3.078564
     },
     "Lille Grand Palais": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.629322,
+      "lon": 3.07515
     },
     "Mairie de Lille": {
-      "lat": 50.673139,
-      "lon": 3.070097
+      "lat": 50.632463,
+      "lon": 3.071051
     },
     "Gare Lille Europe": {
-      "lat": 50.611497,
-      "lon": 3.056019
+      "lat": 50.638359,
+      "lon": 3.076701
     },
     "Saint-Maurice Pellevoisin": {
-      "lat": 50.65,
-      "lon": 3.091025
+      "lat": 50.642527,
+      "lon": 3.088956
     },
     "Mons Sarts": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.630458,
+      "lon": 3.07134
     },
     "Fort de Mons": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.63194,
+      "lon": 3.0575
     },
     "Les Prés - Edgard Pisani": {
-      "lat": 45.779081,
-      "lon": 3.176433
+      "lat": 50.630458,
+      "lon": 3.07134
     },
     "Jean Jaurès": {
-      "lat": 50.62146,
-      "lon": 3.074239
+      "lat": 50.679154,
+      "lon": 3.155853
     },
     "Wasquehal - Hôtel de Ville": {
-      "lat": 50.63987,
-      "lon": 3.011776
+      "lat": 50.63371,
+      "lon": 3.00723
     },
     "Pavé de Lille": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.6278,
+      "lon": 3.045094
     },
     "Croix - Mairie": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.67472,
+      "lon": 3.15389
     },
     "Croix Centre": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.679154,
+      "lon": 3.155853
     },
     "Épeule - Montesquieu": {
-      "lat": 50.621525,
-      "lon": 3.070366
+      "lat": 44.20167,
+      "lon": 0.4375
     },
     "Roubaix - Grand Place": {
-      "lat": 50.638349,
-      "lon": 3.068614
+      "lat": 50.6889,
+      "lon": 3.1814
     },
     "Roubaix - Eurotéléport": {
-      "lat": 50.638349,
-      "lon": 3.068614
+      "lat": 50.6889,
+      "lon": 3.1814
     },
     "Roubaix - Charles de Gaulle": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.6889,
+      "lon": 3.1814
     },
     "Alsace": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.617578,
+      "lon": 3.062139
     },
     "Gare Jean Lebas": {
-      "lat": 50.626764,
-      "lon": 3.069014
+      "lat": 50.630458,
+      "lon": 3.07134
     },
     "Tourcoing - Sébastopol": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.716699,
+      "lon": 3.162751
     },
     "Tourcoing Centre": {
-      "lat": 50.722819,
-      "lon": 3.152583
+      "lat": 50.710354,
+      "lon": 3.159652
     },
     "Colbert": {
-      "lat": 50.630746,
-      "lon": 3.044527
+      "lat": 50.630956,
+      "lon": 3.044322
     },
     "Pont de Neuville": {
-      "lat": 48.348017,
-      "lon": -0.704454
+      "lat": 50.49389,
+      "lon": 3.04694
     },
     "CH Dron": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.743563,
+      "lon": 3.180766
     },
     "Buisson": {
-      "lat": 50.651345,
-      "lon": 3.088447
+      "lat": 50.620541,
+      "lon": 3.106062
     },
     "Parc Jean-Baptiste Lebas": {
-      "lat": 50.626764,
-      "lon": 3.069014
+      "lat": 50.627378,
+      "lon": 3.069125
     },
     "Boulevard de Metz": {
-      "lat": 50.619154,
-      "lon": 3.041636
+      "lat": 50.619859,
+      "lon": 3.038179
     },
     "Cimetière du Sud": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.612428,
+      "lon": 3.047129
     },
     "Montebello": {
-      "lat": 50.622974,
-      "lon": 3.044285
+      "lat": 50.62242,
+      "lon": 3.044909
     },
     "Calmette": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.631606,
+      "lon": 3.105365
     },
     "Centre Oscar Lambret": {
-      "lat": 50.611301,
-      "lon": 3.037871
+      "lat": 50.612401,
+      "lon": 3.032025
     },
     "Wattignies - Templemars": {
-      "lat": 50.57472,
-      "lon": 3.03087
+      "lat": 50.57417,
+      "lon": 3.05444
     },
     "Ronchin - Fâches": {
-      "lat": 50.602575,
-      "lon": 3.07704
+      "lat": 50.60472,
+      "lon": 3.08778
     },
     "Hempempont": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.630458,
+      "lon": 3.07134
     },
     "Tressin": {
-      "lat": 50.628995,
-      "lon": 3.047854
+      "lat": 50.6196,
+      "lon": 3.1949
     },
     "Villeneuve-d'Ascq Hôtel de Ville": {
-      "lat": 50.624234,
-      "lon": 3.147546
+      "lat": 50.62162,
+      "lon": 3.13168
     }
   }
 }

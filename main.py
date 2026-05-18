@@ -3,27 +3,39 @@ import heapq
 import os
 
 class TransportNetwork:
+    import json
+import heapq
+import os
+
+class TransportNetwork:
     def __init__(self):
         # Adjacency list: {station: [(neighbor, time, line), ...]}
         self.graph = {}
         self.stations = set()
         self.lines = {}
-        self.transfer_penalty = 120 # Default transfer time in seconds
+        self.station_coords = {} # NOUVEAU : Dictionnaire pour stocker les GPS
+        self.transfer_penalty = 120
         
     def load_from_json(self, filepath):
         """Loads network data from the structured French JSON file."""
-        # Reset the network before loading a new city
         self.graph = {}
         self.stations = set()
         self.lines = {}
+        self.station_coords = {} # Réinitialisation
         
         with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
             
-        # Load lines using the French key 'lignes'
         self.lines = data.get("lignes", {})
         
-        # Get the average travel time between stations (defaults to 90s if missing)
+        # NOUVEAU : Chargement des coordonnées GPS
+        stations_info = data.get("stations_info", {})
+        for station, info in stations_info.items():
+            lat = info.get("lat")
+            lon = info.get("lon")
+            if lat is not None and lon is not None:
+                self.station_coords[station] = (lat, lon)
+        
         default_time = data.get("temps_moyen", 90)
         
         # 1. Generate connections dynamically from the ordered lists of stations
