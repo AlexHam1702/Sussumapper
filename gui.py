@@ -12,7 +12,7 @@ from main import TransportNetwork, list_available_cities
 
 
 class RoutePlannerGUI(QMainWindow):
-    """GUI application for the Metropolitan Route Planner using PyQt5."""
+    """GUI application for Sussumapper using PyQt5."""
     
     def __init__(self):
         super().__init__()
@@ -94,7 +94,7 @@ class RoutePlannerGUI(QMainWindow):
         
     def init_ui(self):
         """Initialize the user interface."""
-        self.setWindowTitle("Metropolitan Route Planner")
+        self.setWindowTitle("Sussumapper")
         self.setGeometry(100, 100, 900, 700)
         
         # Set modern stylesheet with rounded corners
@@ -174,7 +174,7 @@ class RoutePlannerGUI(QMainWindow):
         
         # ===== HEADER =====
         title_font = QFont('Helvetica', 16, QFont.Bold)
-        title_label = QLabel("🚇 Metropolitan Route Planner")
+        title_label = QLabel("🚇 Sussumapper")
         title_label.setFont(title_font)
         main_layout.addWidget(title_label)
         
@@ -199,8 +199,49 @@ class RoutePlannerGUI(QMainWindow):
         city_group.setLayout(city_layout)
         main_layout.addWidget(city_group)
         
+        # ===== CLOSURE MANAGEMENT GROUP =====
+        closure_group = QGroupBox("2. Manage Closures (Real Conditions)")
+        closure_layout = QGridLayout()
+        
+        # Stations section
+        closure_layout.addWidget(QLabel("Close Stations:"), 0, 0)
+        self.station_closure_combo = QComboBox()
+        closure_layout.addWidget(self.station_closure_combo, 0, 1)
+        
+        self.close_station_btn = QPushButton("Close Station")
+        self.close_station_btn.clicked.connect(self.close_selected_station)
+        closure_layout.addWidget(self.close_station_btn, 0, 2)
+        
+        # Lines section
+        closure_layout.addWidget(QLabel("Close Lines:"), 1, 0)
+        self.line_closure_combo = QComboBox()
+        closure_layout.addWidget(self.line_closure_combo, 1, 1)
+        
+        self.close_line_btn = QPushButton("Close Line")
+        self.close_line_btn.clicked.connect(self.close_selected_line)
+        closure_layout.addWidget(self.close_line_btn, 1, 2)
+        
+        # Reset button
+        self.reset_closures_btn = QPushButton("Reset All Closures")
+        self.reset_closures_btn.clicked.connect(self.reset_all_closures)
+        closure_layout.addWidget(self.reset_closures_btn, 2, 2)
+        
+        # Status display
+        closure_layout.addWidget(QLabel("Closed Stations:"), 3, 0)
+        self.closed_stations_label = QLabel("None")
+        self.closed_stations_label.setStyleSheet("color: red; font-weight: bold;")
+        closure_layout.addWidget(self.closed_stations_label, 3, 1, 1, 2)
+        
+        closure_layout.addWidget(QLabel("Closed Lines:"), 4, 0)
+        self.closed_lines_label = QLabel("None")
+        self.closed_lines_label.setStyleSheet("color: red; font-weight: bold;")
+        closure_layout.addWidget(self.closed_lines_label, 4, 1, 1, 2)
+        
+        closure_group.setLayout(closure_layout)
+        main_layout.addWidget(closure_group)
+        
         # ===== ROUTE SEARCH GROUP =====
-        search_group = QGroupBox("2. Find Shortest Route")
+        search_group = QGroupBox("3. Find Shortest Route")
         search_layout = QGridLayout()
         
         # Departure station
@@ -317,6 +358,10 @@ class RoutePlannerGUI(QMainWindow):
             self.station_completer.setModel(model)
             self.station_completer_end.setModel(QStringListModel(stations_list))
             
+            # Update closure combo boxes
+            self.update_closure_combos()
+            self.update_closure_status()
+            
             self.update_info(f"Loaded {city_name} with {station_count} stations")
         except FileNotFoundError:
             QMessageBox.critical(self, "Error", f"Could not find file: {filepath}")
@@ -399,6 +444,81 @@ class RoutePlannerGUI(QMainWindow):
         self.result_text.clear()
         
         self.update_info("Search cleared")
+    
+    def update_closure_combos(self):
+        """Update the dropdown lists for station and line closures."""
+        # Update stations combo
+        stations_list = self.network.get_all_stations()
+        self.station_closure_combo.clear()
+        self.station_closure_combo.addItems(stations_list)
+        
+        # Update lines combo with line names and IDs
+        lines_list = self.network.get_all_lines()
+        line_display_items = []
+        for line_id in lines_list:
+            line_name = self.network.lines.get(line_id, {}).get("nom", f"Line {line_id}")
+            line_display_items.append(f"{line_id}: {line_name}")
+        
+        self.line_closure_combo.clear()
+        self.line_closure_combo.addItems(line_display_items)
+    
+    def update_closure_status(self):
+        """Update the display of closed stations and lines."""
+        closed_stations = self.network.closed_stations
+        closed_lines = self.network.closed_lines
+        
+        # Update closed stations display
+        if closed_stations:
+            stations_text = ", ".join(sorted(list(closed_stations)))
+            self.closed_stations_label.setText(stations_text)
+        else:
+            self.closed_stations_label.setText("None")
+        
+        # Update closed lines display
+        if closed_lines:
+            lines_display = []
+            for line_id in sorted(list(closed_lines)):
+                line_name = self.network.lines.get(line_id, {}).get("nom", f"Line {line_id}")
+                lines_display.append(f"{line_id} ({line_name})")
+            lines_text = ", ".join(lines_display)
+            self.closed_lines_label.setText(lines_text)
+        else:
+            self.closed_lines_label.setText("None")
+    
+    def close_selected_station(self):
+        """Close the selected station."""
+        station = self.station_closure_combo.currentText()
+        if station and self.network.close_station(station):
+            self.update_closure_status()
+            # Remove it from the combo and add to available stations
+            self.update_closure_combos()
+            self.update_info(f"Station '{station}' is now closed")
+            QMessageBox.information(self, "Station Closed", f"Station '{station}' has been closed and will be avoided in route calculations.")
+        else:
+            QMessageBox.warning(self, "Error", f"Could not close station '{station}'")
+    
+    def close_selected_line(self):
+        """Close the selected line."""
+        current_text = self.line_closure_combo.currentText()
+        line_id = current_text.split(":")[0]  # Extract line ID from "ID: Name"
+        
+        if line_id and self.network.close_line(line_id):
+            self.update_closure_status()
+            self.update_closure_combos()
+            line_name = self.network.lines.get(line_id, {}).get("nom", f"Line {line_id}")
+            self.update_info(f"Line {line_id} ({line_name}) is now closed")
+            QMessageBox.information(self, "Line Closed", f"Line {line_id} ({line_name}) has been closed and will be avoided in route calculations.")
+        else:
+            QMessageBox.warning(self, "Error", f"Could not close line '{line_id}'")
+    
+    def reset_all_closures(self):
+        """Reset all closures and reopen all stations and lines."""
+        self.network.closed_stations.clear()
+        self.network.closed_lines.clear()
+        self.update_closure_status()
+        self.update_closure_combos()
+        self.update_info("All closures have been reset")
+        QMessageBox.information(self, "Closures Reset", "All stations and lines are now open.")
     
     def update_info(self, message):
         """Update the info label at the bottom."""

@@ -15,6 +15,8 @@ class TransportNetwork:
         self.lines = {}
         self.station_coords = {} # NOUVEAU : Dictionnaire pour stocker les GPS
         self.transfer_penalty = 120
+        self.closed_stations = set()  # Stations that are closed
+        self.closed_lines = set()      # Lines that are closed
         
     def load_from_json(self, filepath):
         """Loads network data from the structured French JSON file."""
@@ -66,6 +68,50 @@ class TransportNetwork:
         self.graph[source].append((destination, time, line))
         self.stations.add(source)
         self.stations.add(destination)
+    
+    def close_station(self, station):
+        """Close a station (make it unavailable for routing)."""
+        if station in self.stations:
+            self.closed_stations.add(station)
+            return True
+        return False
+    
+    def open_station(self, station):
+        """Open a closed station (make it available again for routing)."""
+        if station in self.closed_stations:
+            self.closed_stations.discard(station)
+            return True
+        return False
+    
+    def close_line(self, line_id):
+        """Close an entire line (make it unavailable for routing)."""
+        if line_id in self.lines:
+            self.closed_lines.add(line_id)
+            return True
+        return False
+    
+    def open_line(self, line_id):
+        """Open a closed line (make it available again for routing)."""
+        if line_id in self.closed_lines:
+            self.closed_lines.discard(line_id)
+            return True
+        return False
+    
+    def get_all_lines(self):
+        """Get all available line IDs."""
+        return sorted(list(self.lines.keys()))
+    
+    def get_all_stations(self):
+        """Get all available station names."""
+        return sorted(list(self.stations))
+    
+    def get_open_stations(self):
+        """Get all currently open (not closed) stations."""
+        return sorted(list(self.stations - self.closed_stations))
+    
+    def get_open_lines(self):
+        """Get all currently open (not closed) lines."""
+        return sorted([l for l in self.lines.keys() if l not in self.closed_lines])
 
     def bfs(self, start_station):
         """Breadth-First Search to find paths with the fewest stops."""
@@ -87,8 +133,13 @@ class TransportNetwork:
         return visited
 
     def dijkstra(self, start, end):
-        """Finds the shortest path in travel time using Dijkstra's Algorithm."""
+        """Finds the shortest path in travel time using Dijkstra's Algorithm.
+        Avoids closed stations and lines."""
         if start not in self.stations or end not in self.stations:
+            return None
+        
+        # Cannot use closed stations as start or end
+        if start in self.closed_stations or end in self.closed_stations:
             return None
 
         # Priority queue: (total_time, current_station, current_line, path_history)
@@ -112,6 +163,13 @@ class TransportNetwork:
             min_times[state] = current_time
 
             for neighbor, edge_time, next_line in self.graph.get(current_station, []):
+                # Skip if line is closed
+                if next_line in self.closed_lines:
+                    continue
+                # Skip if neighbor station is closed
+                if neighbor in self.closed_stations:
+                    continue
+                
                 time_cost = current_time + edge_time
                 
                 # Apply 120s transfer penalty if switching lines (and not the first station)

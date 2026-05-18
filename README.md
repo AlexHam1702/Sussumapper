@@ -1,4 +1,4 @@
-# **🚇 Metropolitan Route Planner**
+# **🚇 Sussumapper**
 
 **MVP Status:** v0.67
 
@@ -7,7 +7,7 @@
 
 ## **🎯 Project Overview**
 
-The Metropolitan Route Planner is a desktop application designed to help commuters find the fastest routes through urban transit networks. It processes metropolitan transit data (stations, lines, and connections) and uses optimized algorithms to compute shortest paths while accounting for transfer times and line changes.
+Sussumapper is a desktop application designed to help commuters find the fastest routes through urban transit networks. It processes metropolitan transit data (stations, lines, and connections) and uses optimized algorithms to compute shortest paths while accounting for transfer times and line changes.
 
 The application provides both a **command-line interface** for route queries and a **modern PyQt5 GUI** for an enhanced user experience. The core engine uses **Dijkstra's Algorithm** to find time-optimal routes, while supporting multiple transit lines and realistic transfer penalties.
 
@@ -71,7 +71,51 @@ This application is built using **Object-Oriented Programming (OOP)** principles
 - **Line Switching Logic**: Automatically detects and penalizes transfers between different transit lines
 - **State Tracking**: Uses `(station, line)` tuples to prevent inefficient revisits on the same line
 - **Bidirectional Edges**: Ensures all transit connections work in both directions
+- **Station & Line Closures**: Simulates real-world conditions by allowing stations and lines to be temporarily closed
+  - The routing algorithm automatically avoids closed stations and lines
+  - Routes are recalculated to find viable alternatives
+  - Perfect for simulating maintenance, breakdowns, or emergency situations
 
+
+## **🚨 Real-World Conditions: Station & Line Closures**
+
+The application now supports simulating realistic network conditions where stations or entire lines are temporarily unavailable.
+
+### **Features:**
+
+- **Close Individual Stations**: Mark specific stations as out of service (e.g., for maintenance)
+- **Close Entire Lines**: Temporarily disable a complete transit line
+- **Dynamic Route Adaptation**: The algorithm automatically finds alternate routes avoiding closed infrastructure
+- **Easy Reset**: Clear all closures with one button to restore the full network
+
+### **How to Use (GUI):**
+
+1. Load a city and its transit network
+2. Go to the **"Manage Closures (Real Conditions)"** section
+3. **To close a station:**
+   - Select a station from the dropdown
+   - Click "Close Station"
+   - The status display updates to show closed stations
+   - Routes will now avoid this station
+
+4. **To close a line:**
+   - Select a line from the dropdown
+   - Click "Close Line"
+   - The status display updates to show closed lines
+   - Routes will use alternative lines to reach destinations
+
+5. **To restore service:**
+   - Click "Reset All Closures" to reopen everything
+   - Or manually reopen individual stations/lines as they return to service
+
+### **Example Scenario:**
+
+```
+Normal route: La Défense → Concorde → Châtelet → Gare de Lyon
+If Châtelet is closed: La Défense → Tuileries → Hôtel de Ville → Bastille → Gare de Lyon
+```
+
+---
 
 ## **📊 Data Format**
 

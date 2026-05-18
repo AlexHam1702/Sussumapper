@@ -10,9 +10,9 @@
         "Triolo",
         "Villeneuve-d'Ascq - Hôtel de Ville",
         "Pont de Bois",
-        "Lezennes",
+        "Square Flandres",
         "Hellemmes",
-        "Mairie de Lille - Lille Grand Palais",
+        "Marbrerie",
         "Fives",
         "Caulier",
         "Gare Lille Flandres",
@@ -214,40 +214,40 @@
   "note": "Temps moyen en secondes entre deux stations consécutives. Les connexions entre stations consécutives d'une même ligne sont générées à partir du champ 'stations' de chaque ligne.",
   "stations_info": {
     "4 Cantons - Stade Pierre Mauroy": {
-      "lat": 50.636926,
-      "lon": 3.065125
+      "lat": 50.60594,
+      "lon": 3.13887
     },
     "Cité Scientifique - Professeur Gabillard": {
-      "lat": 50.630458,
-      "lon": 3.07134
+      "lat": 50.61183,
+      "lon": 3.14238
     },
     "Triolo": {
-      "lat": 50.630458,
-      "lon": 3.07134
+      "lat": 50.61697,
+      "lon": 3.14075
     },
     "Villeneuve-d'Ascq - Hôtel de Ville": {
-      "lat": 50.62162,
-      "lon": 3.13168
+      "lat": 50.61923,
+      "lon": 3.13064
     },
     "Pont de Bois": {
-      "lat": 50.626956,
-      "lon": 3.122777
+      "lat": 50.62420,
+      "lon": 3.12841
     },
-    "Lezennes": {
-      "lat": 50.61444,
-      "lon": 3.11333
+    "Square Flandres": {
+      "lat": 50.62522,
+      "lon": 3.11612
     },
     "Hellemmes": {
       "lat": 50.62551,
       "lon": 3.115748
     },
-    "Mairie de Lille - Lille Grand Palais": {
-      "lat": 50.629322,
-      "lon": 3.07515
+    "Marbrerie": {
+      "lat": 50.63066,
+      "lon": 3.09779
     },
     "Fives": {
-      "lat": 50.633172,
-      "lon": 3.09085
+      "lat": 50.63311,
+      "lon": 3.09070
     },
     "Caulier": {
       "lat": 50.636659,
