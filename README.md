@@ -1,4 +1,4 @@
-# **📦 \SuSsuMapper**
+# **🚇 Metropolitan Route Planner**
 
 **MVP Status:** v0.67
 
@@ -7,81 +7,145 @@
 
 ## **🎯 Project Overview**
 
-Provide a concise (2-3 sentence) description of what your application does and the specific problem it solves. Why did you build this?
+The Metropolitan Route Planner is a desktop application designed to help commuters find the fastest routes through urban transit networks. It processes metropolitan transit data (stations, lines, and connections) and uses optimized algorithms to compute shortest paths while accounting for transfer times and line changes.
 
-This application is a terminal-based Tic Tac Toe interface. It has multiple gamemodes and changeable difficulty and an IA powered by a Minimax Algorithm.
-The goal is to provide the client with a stable, easy to use and fun tic tac toe game with an IA able to simulate next moves.
+The application provides both a **command-line interface** for route queries and a **modern PyQt5 GUI** for an enhanced user experience. The core engine uses **Dijkstra's Algorithm** to find time-optimal routes, while supporting multiple transit lines and realistic transfer penalties.
 
 
 ## **🚀 Quick Start (Architect Level: < 60s Setup)**
 
 Instructions on how to get this project running on a fresh machine.
 
-1. **Clone the repo:**\
-   git clone \[your-repo-link]\
-   cd \[project-folder]
+1. **Clone the repo:**
+   ```bash
+   git clone [your-repo-link]
+   cd PBL-3
+   ```
 
-2. **Setup Virtual Environment:**\
-   python -m venv .venv\
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+2. **Setup Virtual Environment:**
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
 
-3. **Install Dependencies:**\
+3. **Install Dependencies:**
+   ```bash
    pip install -r requirements.txt
+   ```
 
-4. **Run Application:**\
-   python main.py
+4. **Run the GUI Application:**
+   ```bash
+   python gui.py
+   ```
+
+5. **Prepare Data Files:**
+   - Place your JSON transit network files in the `data/` folder
+   - The app will automatically detect and load available cities
 
 
 ## **🛠️ Technical Architecture**
 
-This application is designed using **Object-Oriented Programming (OOP)** principles, ensuring a clean separation between game logic and user interaction.
+This application is built using **Object-Oriented Programming (OOP)** principles with a clear separation between the core routing engine and user interfaces.
 
-* **main.py**: The entry point of the application. It handles the top-level execution flow, menu navigation, and initializes the game instance.
-* **logic/**: Contains the core `TicTacToe` class. This module manages the game state, board validation, and the **Minimax Algorithm**—the decision-making engine that powers the AI.
-* **ui/**: Manages the Command Line Interface (CLI). It transforms the internal data structures into a readable grid and handles terminal-based user input/output.
-* **utils/**: Utilizes Python's `Enum` and `typing` modules to define shared constants (`Player`, `GameMode`) and provide type safety across the project.
+### **Core Components:**
 
----
+* **main.py**: The core routing engine containing the `TransportNetwork` class
+  - `TransportNetwork`: Manages the graph-based transit network with stations and connections
+  - `load_from_json()`: Parses metropolitan transit data from structured JSON files
+  - `dijkstra()`: Implements Dijkstra's Algorithm to find shortest-time routes
+  - `bfs()`: Breadth-First Search for finding paths with minimum stops
+  - `format_route()`: Formats and displays route information with transfers and timing
+  - **Transfer Penalty System**: Applies a 120-second penalty when switching transit lines to reflect realistic connection times
+
+* **gui.py**: PyQt5-based graphical user interface
+  - `RoutePlannerGUI`: Main window managing the user interface
+  - **City Selection Panel**: Load and switch between different metropolitan networks
+  - **Station Auto-completion**: Provides intelligent station name suggestions as users type
+  - **Route Display**: Visual presentation of itineraries with stops, transfers, and travel times
+  - **Modern Styling**: Rounded corners, focus states, and professional color scheme
+  - **Error Handling**: User-friendly dialogs for validation and feedback
+
+### **Algorithm Highlights:**
+
+- **Dijkstra's Algorithm**: Finds the optimal route minimizing total travel time
+- **Line Switching Logic**: Automatically detects and penalizes transfers between different transit lines
+- **State Tracking**: Uses `(station, line)` tuples to prevent inefficient revisits on the same line
+- **Bidirectional Edges**: Ensures all transit connections work in both directions
+
+
+## **📊 Data Format**
+
+The application expects JSON files with the following structure:
+
+```json
+{
+  "temps_moyen": 90,
+  "lignes": {
+    "line_id": {
+      "stations": ["Station A", "Station B", "Station C"]
+    }
+  },
+  "connexions": []
+}
+```
+
+- `temps_moyen`: Average travel time between consecutive stations (in seconds)
+- `lignes`: Dictionary of transit lines with ordered station sequences
+- `connexions`: Array of explicit connections (optional, for future extensions)
+
 
 ## **🧪 Testing & Validation**
 
-To verify the integrity of the game engine and AI performance, follow these steps:
+### **Manual GUI Testing**
 
-### **Manual Validation (The "Happy Path")**
+1. Run `python gui.py` to launch the interface
+2. Select a city from the dropdown (JSON files in `data/` folder)
+3. Enter a departure station (autocomplete assists)
+4. Enter an arrival station
+5. Click "Find Route" to compute the shortest path
+6. **Validation Criteria:**
+   - Route displays all necessary station stops
+   - Transfer information is accurate and highlighted
+   - Total travel time calculation is correct
+   - No crashes on invalid input
 
-1. Run the script: `python main.py`.
-2. Select **Option 4** to set difficulty to **9** (Perfect Play).
-3. Select **Option 1** (Human vs AI).
-4. Play a full game. **Validation Criteria:** The AI should either win or force a draw; it should be impossible to beat at this depth.
+### **Automated Testing** (using pytest)
 
-### **Automated Testing**
+Expected test cases:
 
-If using `pytest`, ensure the following cases pass:
+* **Route Finding**: Verify Dijkstra correctly finds shortest paths
+* **Transfer Penalties**: Confirm line changes add 120-second penalties
+* **Input Validation**: Ensure invalid stations are handled gracefully
+* **Edge Cases**: Test single-stop routes, disconnected stations, and large networks
+* **BFS Alternative**: Verify paths with fewest stops when applicable
 
-* **Win Conditions:** Verify that 3-in-a-row (horizontal, vertical, and diagonal) triggers a win.
-* **Draw Condition:** Verify that a full board with no winner returns a draw.
-* **Input Guardrails:** Ensure that entering non-integer values or coordinates outside the 0-2 range does not crash the program.
-
----
 
 ## **📦 Dependencies**
 
-This project is built using the **Python Standard Library** to ensure zero-overhead installation and high portability.
+* **PyQt5**: Modern GUI framework for desktop applications
+  - Provides widgets, layouts, and event handling
+  - Enables auto-completion and styled components
 
-* **enum**: Used to define `Player` types. This prevents "magic number" bugs and makes the code self-documenting.
-* **typing**: Implements static type hinting for better developer experience and code maintainability.
-* **copy (deepcopy)**: Utilized for the "Winning Sequence" simulation, allowing the AI to test moves on a virtual board without affecting the live game state.
-* **math/sys**: Used for handling infinite values in the Minimax algorithm and system-level operations.
+* **Python Standard Library:**
+  - `json`: Parses network data files
+  - `heapq`: Priority queue for Dijkstra's Algorithm
+  - `os`: File system operations for data loading
+  - `sys`: System-level operations
 
 ---
 
 ## **🔮 Future Roadmap (v2.0)**
 
-The next iteration of this project aims to scale the complexity and accessibility:
+* **Multi-modal Transport**: Support buses, trains, and cycling integration
+* **Real-time Updates**: Live traffic and delay information
+* **Fare Calculation**: Compute costs alongside time optimization
+* **Accessibility Features**: Screen reader support, high contrast themes
+* **Mobile App**: React Native or Flutter version
+* **Performance Optimization**: Implement A* or contraction hierarchies for larger networks
+* **Trip Planning**: Multi-stop itineraries and schedule optimization
 
-* **Heuristic Scaling**: Update the `evaluate()` function to support larger boards (e.g., 10x10) where deep Minimax searches become computationally expensive.
-* **GUI Implementation**: Integrate `Tkinter` or `Pygame` to move beyond the terminal and provide a modern visual experience.
-* **Monte Carlo Tree Search (MCTS)**: Implement MCTS as an alternative AI strategy for more "human-like" playstyles on larger grids.
-* **Save/Load System**: Add JSON-based serialization to save ongoing matches and track lifetime player statistics.
+---
 
-__
+## **📄 License**
+
+Educational project for PBL-3 course.
