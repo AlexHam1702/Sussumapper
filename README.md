@@ -49,7 +49,7 @@ Instructions on how to get this project running on a fresh machine.
 1. **Clone the repo:**
    ```bash
    git clone [your-repo-link]
-   cd PBL-3
+   cd Sussumapper
    ```
 
 2. **Setup Virtual Environment:**
@@ -298,6 +298,3 @@ pip install -r requirements.txt
 
 ---
 
-## **📄 License**
-
-Educational project for PBL-3 course.
