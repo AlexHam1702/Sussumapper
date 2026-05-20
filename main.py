@@ -8,7 +8,7 @@ class TransportNetwork:
         self.graph = {}
         self.stations = set()
         self.lines = {}
-        self.station_coords = {} # NOUVEAU : Dictionnaire pour stocker les GPS
+        self.station_coords = {} # Dictionnaire pour stocker les GPS
         self.transfer_penalty = 120
         self.closed_stations = set()  # Stations that are closed
         self.closed_lines = set()      # Lines that are closed
