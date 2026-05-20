@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QH
                              QGroupBox, QMessageBox, QGridLayout, QCompleter)
 from PyQt5.QtGui import QFont, QColor
 from PyQt5.QtCore import Qt, QStringListModel
-import io
 import folium
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 from main import TransportNetwork, list_available_cities

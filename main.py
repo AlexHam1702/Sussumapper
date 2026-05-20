@@ -3,11 +3,6 @@ import heapq
 import os
 
 class TransportNetwork:
-    import json
-import heapq
-import os
-
-class TransportNetwork:
     def __init__(self):
         # Adjacency list: {station: [(neighbor, time, line), ...]}
         self.graph = {}
@@ -30,7 +25,7 @@ class TransportNetwork:
             
         self.lines = data.get("lignes", {})
         
-        # NOUVEAU : Chargement des coordonnées GPS
+        # Chargement des coordonnées GPS
         stations_info = data.get("stations_info", {})
         for station, info in stations_info.items():
             lat = info.get("lat")
